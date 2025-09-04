@@ -77,7 +77,7 @@ async def main():
         steps_dir=os.path.join(OUTPUT_DIR, "steps"),
         framework="pytest-bdd",
         feature_per_epic=True,
-        traceability_csv=os.path.join(OUTPUT_DIR, "testcases.csv"),
+        traceability_csv=os.path.join(OUTPUT_DIR, "traceability.csv"),
     )
     print("✅ BDD test cases generated.")
 
@@ -102,7 +102,7 @@ async def main():
     print("\n🚀 Step 4: Generating compliance report...")
     compliance_report = build_compliance_report(
         stories_path=os.path.join(OUTPUT_DIR, "stories.json"),
-        testcases_path=os.path.join(OUTPUT_DIR, "traceability.csv"),
+        testcases_path=os.path.join(OUTPUT_DIR, "testcases.csv"),
         out_csv=os.path.join(OUTPUT_DIR, "compliance_evidence.csv"),
         out_xlsx=os.path.join(OUTPUT_DIR, "compliance_evidence.xlsx"),
         project_id=PROJECT_ID,

@@ -1,7 +1,0 @@
-pdfminer.six
-python-docx
-jsonschema
-pydantic
-google-cloud-aiplatform>=1.71.0
-vertexai>=1.71.0
-tqdm
