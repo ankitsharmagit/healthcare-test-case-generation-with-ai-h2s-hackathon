@@ -197,7 +197,7 @@ def story_full_text(story: Dict[str, Any], tc_rows: pd.DataFrame) -> str:
 
     sid = story.get("story_id")
     if sid and not tc_rows.empty:
-        sub = tc_rows[tc_rows["Story Id"] == sid]
+        sub = tc_rows[tc_rows["story_id"] == sid]
         for _, r in sub.iterrows():
             parts.append(str(r.get("Step Action", "")))
             parts.append(str(r.get("Step Expected", "")))
@@ -302,19 +302,3 @@ def build_compliance_report(
     with_gaps = int((df["Missing Controls"].str.len() > 0).sum())
     print(f"   Stories analyzed: {total} | Stories with missing controls: {with_gaps}")
     return df
-
-
-# ------------------------------ CLI-style usage ------------------------------
-
-# if __name__ == "__main__":
-#     # Attempt to infer project ID from env if available
-#     GCP_PROJECT = os.getenv("GOOGLE_CLOUD_PROJECT") or os.getenv("GCLOUD_PROJECT")
-#     build_compliance_report(
-#         stories_path="stories.json",
-#         testcases_path="testcases.csv",
-#         out_csv="compliance_evidence.csv",
-#         out_xlsx="compliance_evidence.xlsx",
-#         project_id=GCP_PROJECT,
-#         location="us-central1",
-#         use_embeddings=True,   # set False to run without Vertex embeddings
-#     )
