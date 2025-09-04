@@ -1,0 +1,188 @@
+requirement_id,story_id,epic,priority,scenario_id,tags,pages
+1.1,7c4c1495-1f6d-4462-bd63-191fd15ea6ba,Digitize patient records and automate tracking.,Must,7c4c1495-1f6d-4462-bd63-191fd15ea6ba_AC1,@priority_Must @req_1.1 @FDA21CFR11 @HIPAA,4;6
+1.4,855160d4-16c6-4f25-a186-5279dcbbcfd3,"Replace Trillium's current system with a new system including database, clinician portal, and session application.",Must,855160d4-16c6-4f25-a186-5279dcbbcfd3_AC1,@priority_Must @req_1.4 @FDA21CFR11 @HIPAA,5;6
+2.1.1,a99367a2-ad05-4a4b-a4d2-91390abb0115,Implement Database for Trillium Health,Must,a99367a2-ad05-4a4b-a4d2-91390abb0115_AC1,@priority_Must @req_2.1.1 @FDA21CFR11 @HIPAA,6
+2.1.2,5dd0d188-2605-4668-8305-d3155760a7e6,Clinician Portal Development,Must,5dd0d188-2605-4668-8305-d3155760a7e6_AC1,@priority_Must @req_2.1.2 @HIPAA,6;13
+2.1.2,5dd0d188-2605-4668-8305-d3155760a7e6,Clinician Portal Development,Must,5dd0d188-2605-4668-8305-d3155760a7e6_AC2,@priority_Must @req_2.1.2 @HIPAA,6;13
+2.1.3,bf688cd2-f118-4e36-9bfd-432eebbbf55d,,Must,bf688cd2-f118-4e36-9bfd-432eebbbf55d_AC1,@priority_Must @req_2.1.3 @FDA21CFR11 @HIPAA,9;10
+2.3.2.1,3d373e82-3575-4b20-9827-bdae31729eb9,,Must,3d373e82-3575-4b20-9827-bdae31729eb9_AC1,@priority_Must @req_2.3.2.1 @FDA21CFR11 @HIPAA,6
+2.3.2.2,d91e5c35-9555-4982-a8f8-914a055ddd85,,Must,d91e5c35-9555-4982-a8f8-914a055ddd85_AC1,@priority_Must @req_2.3.2.2,6;9
+2.3.2.3,f97ac7d0-f8b7-4ec7-a54a-59bb9f9413b5,,Must,f97ac7d0-f8b7-4ec7-a54a-59bb9f9413b5_AC1,@priority_Must @req_2.3.2.3,6
+2.3.2.4,f5517b01-024f-492c-86ba-ac2788e2b5d3,,Must,f5517b01-024f-492c-86ba-ac2788e2b5d3_AC1,@priority_Must @req_2.3.2.4 @FDA21CFR11 @HIPAA,6;9
+2.3.2.5,527f103d-1603-40cf-8198-6b8dfa457f4d,,Must,527f103d-1603-40cf-8198-6b8dfa457f4d_AC1,@priority_Must @req_2.3.2.5,6;9
+2.3.2.6,8a313ed6-cc82-4a0a-aa97-e9cc92a97687,,Must,8a313ed6-cc82-4a0a-aa97-e9cc92a97687_AC1,@priority_Must @req_2.3.2.6 @FDA21CFR11 @HIPAA,6;8
+2.3.2.7,db06f16a-6a36-452a-9a1f-e617be30c0f6,,Must,db06f16a-6a36-452a-9a1f-e617be30c0f6_AC1,@priority_Must @req_2.3.2.7 @FDA21CFR11 @HIPAA,6;11
+2.3.2.8,0f91a6e9-817f-46c8-9026-3f6ee1ebd75d,,Must,0f91a6e9-817f-46c8-9026-3f6ee1ebd75d_AC1,@priority_Must @req_2.3.2.8 @HIPAA,6
+2.3.2.9,de66dc53-f2fc-4061-b098-f552e7c68520,,Must,de66dc53-f2fc-4061-b098-f552e7c68520_AC1,@priority_Must @req_2.3.2.9 @FDA21CFR11 @HIPAA,6
+2.3.2.10,a8bd0686-5690-476f-bb03-1517119db8f3,,Must,a8bd0686-5690-476f-bb03-1517119db8f3_AC1,@priority_Must @req_2.3.2.10 @FDA21CFR11 @HIPAA,6
+2.3.2.11,44055438-1f5c-4d0a-921c-812679456594,,Must,44055438-1f5c-4d0a-921c-812679456594_AC1,@priority_Must @req_2.3.2.11 @HIPAA,6;14
+2.3.2.12,1affbf21-7111-4374-8fb6-9c1833e7c2d0,,Should,1affbf21-7111-4374-8fb6-9c1833e7c2d0_AC1,@priority_Should @req_2.3.2.12 @FDA21CFR11 @HIPAA,6
+2.3.2.13,75e23dd8-b344-426e-8a52-b1a317b22673,,Should,75e23dd8-b344-426e-8a52-b1a317b22673_AC1,@priority_Should @req_2.3.2.13 @FDA21CFR11 @HIPAA,6;11
+2.3.2.14,efef7ae0-f6e9-4102-a783-b9c2f4ec7234,,Must,efef7ae0-f6e9-4102-a783-b9c2f4ec7234_AC1,@priority_Must @req_2.3.2.14,6;8
+2.3.2.15,48cfc3ec-fb4e-4c02-8792-47151ab03b1c,,Must,48cfc3ec-fb4e-4c02-8792-47151ab03b1c_AC1,@priority_Must @req_2.3.2.15,6
+2.3.2.16,9021299a-87c3-49df-a0b1-9f52e8aa61f9,,Should,9021299a-87c3-49df-a0b1-9f52e8aa61f9_AC1,@priority_Should @req_2.3.2.16 @FDA21CFR11 @HIPAA,5;6
+2.3.2.17,693d2cf2-1b1c-453e-8edf-55e28808ee46,,Must,693d2cf2-1b1c-453e-8edf-55e28808ee46_AC1,@priority_Must @req_2.3.2.17 @FDA21CFR11 @HIPAA,5;6
+2.3.2.18,ec1e7a0f-fb31-4f4a-afcb-c4fd01c5203f,,Should,ec1e7a0f-fb31-4f4a-afcb-c4fd01c5203f_AC1,@priority_Should @req_2.3.2.18 @FDA21CFR11 @HIPAA,6
+2.3.2.19,164c07a3-af81-49ba-9fd9-59d22ec0a148,,Must,164c07a3-af81-49ba-9fd9-59d22ec0a148_AC1,@priority_Must @req_2.3.2.19 @HIPAA,6;8
+2.3.2.9,72a7ef77-9f22-4335-acdf-9f51d8460289,,Should,72a7ef77-9f22-4335-acdf-9f51d8460289_AC1,@priority_Should @req_2.3.2.9 @HIPAA,6;8
+2.3.2.21,15ca43a3-0201-4435-b955-59f36295e576,,Must,15ca43a3-0201-4435-b955-59f36295e576_AC1,@priority_Must @req_2.3.2.21,7
+2.3.2.22,4a231938-a4a3-4d19-9bdd-cd7cb0cab25c,,Must,4a231938-a4a3-4d19-9bdd-cd7cb0cab25c_AC1,@priority_Must @req_2.3.2.22,7
+2.3.2.23,bcf39837-9725-4791-8753-c87c1761987e,,Must,bcf39837-9725-4791-8753-c87c1761987e_AC1,@priority_Must @req_2.3.2.23 @HIPAA,7
+2.3.2.24,476e2c5d-59ac-4952-b2f8-bba2f7be8026,,Must,476e2c5d-59ac-4952-b2f8-bba2f7be8026_AC1,@priority_Must @req_2.3.2.24 @HIPAA,7
+2.3.2.24,476e2c5d-59ac-4952-b2f8-bba2f7be8026,,Must,476e2c5d-59ac-4952-b2f8-bba2f7be8026_AC2,@priority_Must @req_2.3.2.24 @HIPAA,7
+2.3.2.25,53b7fa06-d0da-46d8-9049-62d52f6249e4,,Must,53b7fa06-d0da-46d8-9049-62d52f6249e4_AC1,@priority_Must @req_2.3.2.25,7
+2.3.2.25,53b7fa06-d0da-46d8-9049-62d52f6249e4,,Must,53b7fa06-d0da-46d8-9049-62d52f6249e4_AC2,@priority_Must @req_2.3.2.25,7
+2.3.2.23;2.3.3.4.2,8984bbd5-e444-47a8-94ba-961caf2554c3,,Must,8984bbd5-e444-47a8-94ba-961caf2554c3_AC1,@priority_Must @req_2.3.2.23 @req_2.3.3.4.2,7
+2.3.3.5.4,4aad4433-8ba0-40a0-9ff7-20a106dace69,,Must,4aad4433-8ba0-40a0-9ff7-20a106dace69_AC1,@priority_Must @req_2.3.3.5.4,12
+2.3.3.6,836b0423-b4f8-45d0-8e69-bbf2dc4cd2f9,,Must,836b0423-b4f8-45d0-8e69-bbf2dc4cd2f9_AC1,@priority_Must @req_2.3.3.6,7
+2.3.3.7,b98e8f78-679e-4a87-bba2-68bff17b5f07,,Must,b98e8f78-679e-4a87-bba2-68bff17b5f07_AC1,@priority_Must @req_2.3.3.7,7
+2.3.3.8,5e5de401-441f-4c08-816b-afcd430de3a6,,Must,5e5de401-441f-4c08-816b-afcd430de3a6_AC1,@priority_Must @req_2.3.3.8,7
+2.3.3.8.4,e8843f4e-d6aa-470f-b008-ae8c38dc930f,,Must,e8843f4e-d6aa-470f-b008-ae8c38dc930f_AC1,@priority_Must @req_2.3.3.8.4,7
+2.3.3.9,e7576094-cddd-4780-817b-f98355781994,,Must,e7576094-cddd-4780-817b-f98355781994_AC1,@priority_Must @req_2.3.3.9 @FDA21CFR11 @HIPAA,7
+2.3.3.9,e7576094-cddd-4780-817b-f98355781994,,Must,e7576094-cddd-4780-817b-f98355781994_AC2,@priority_Must @req_2.3.3.9 @FDA21CFR11 @HIPAA,7
+2.3.3.9.1,1c0eff54-c610-43d6-93b9-df2e591e4ff6,,Must,1c0eff54-c610-43d6-93b9-df2e591e4ff6_AC1,@priority_Must @req_2.3.3.9.1 @FDA21CFR11 @HIPAA,7
+2.3.3.9;2.3.3.10,8b92bc9c-fa76-4b40-8818-91e71a0a5698,,Must,8b92bc9c-fa76-4b40-8818-91e71a0a5698_AC1,@priority_Must @req_2.3.3.9 @req_2.3.3.10 @HIPAA,7
+2.3.3.9;2.3.3.10,8b92bc9c-fa76-4b40-8818-91e71a0a5698,,Must,8b92bc9c-fa76-4b40-8818-91e71a0a5698_AC2,@priority_Must @req_2.3.3.9 @req_2.3.3.10 @HIPAA,7
+2.3.3.10.1,b4bdf2e3-d97f-4dc7-8514-b1e379db0b76,,Must,b4bdf2e3-d97f-4dc7-8514-b1e379db0b76_AC1,@priority_Must @req_2.3.3.10.1 @FDA21CFR11 @HIPAA,11
+2.3.3.10.3,11453d48-f38d-42f2-affe-29a275b341d9,,Must,11453d48-f38d-42f2-affe-29a275b341d9_AC1,@priority_Must @req_2.3.3.10.3,11
+2.3.3.10.3,11453d48-f38d-42f2-affe-29a275b341d9,,Must,11453d48-f38d-42f2-affe-29a275b341d9_AC2,@priority_Must @req_2.3.3.10.3,11
+2.3.3.10.4,ad301c82-bf7b-4464-aceb-3a564aa7d83b,,Must,ad301c82-bf7b-4464-aceb-3a564aa7d83b_AC1,@priority_Must @req_2.3.3.10.4,6;7;11
+2.3.3.11,d3b3b842-4b5e-49d7-a51b-55743b9cad9a,,Must,d3b3b842-4b5e-49d7-a51b-55743b9cad9a_AC1,@priority_Must @req_2.3.3.11 @FDA21CFR11 @HIPAA,8
+2.3.3.11,d3b3b842-4b5e-49d7-a51b-55743b9cad9a,,Must,d3b3b842-4b5e-49d7-a51b-55743b9cad9a_AC2,@priority_Must @req_2.3.3.11 @FDA21CFR11 @HIPAA,8
+2.3.3.11,d3b3b842-4b5e-49d7-a51b-55743b9cad9a,,Must,d3b3b842-4b5e-49d7-a51b-55743b9cad9a_AC3,@priority_Must @req_2.3.3.11 @FDA21CFR11 @HIPAA,8
+2.3.3.12,c8b6c027-9235-4b22-aa0c-0d288fd24850,,Must,c8b6c027-9235-4b22-aa0c-0d288fd24850_AC1,@priority_Must @req_2.3.3.12 @FDA21CFR11 @HIPAA,8
+2.3.3.13,91c56775-a690-42ef-94f5-c5aba3e3f274,,Should,91c56775-a690-42ef-94f5-c5aba3e3f274_AC1,@priority_Should @req_2.3.3.13 @FDA21CFR11 @HIPAA,8;12
+2.3.3.14,c86f20e6-4261-4064-adcc-9452f9e0da3c,,Must,c86f20e6-4261-4064-adcc-9452f9e0da3c_AC1,@priority_Must @req_2.3.3.14 @FDA21CFR11 @HIPAA,8
+2.3.3.15,06c4fa1f-ea09-4f9a-915a-9e36473db1a3,,Must,06c4fa1f-ea09-4f9a-915a-9e36473db1a3_AC1,@priority_Must @req_2.3.3.15 @FDA21CFR11 @HIPAA,8
+2.3.3.11;2.3.3.12;2.3.3.13;2.3.3.14;2.3.3.15;2.3.3.16,c187bd13-bdf5-45db-9b6a-415b06ec88d3,,Must,c187bd13-bdf5-45db-9b6a-415b06ec88d3_AC1,@priority_Must @req_2.3.3.11 @req_2.3.3.12 @req_2.3.3.13 @req_2.3.3.14 @req_2.3.3.15 @req_2.3.3.16 @FDA21CFR11 @HIPAA,8;11
+2.3.3.11;2.3.3.12;2.3.3.13;2.3.3.14;2.3.3.15;2.3.3.16,c187bd13-bdf5-45db-9b6a-415b06ec88d3,,Must,c187bd13-bdf5-45db-9b6a-415b06ec88d3_AC2,@priority_Must @req_2.3.3.11 @req_2.3.3.12 @req_2.3.3.13 @req_2.3.3.14 @req_2.3.3.15 @req_2.3.3.16 @FDA21CFR11 @HIPAA,8;11
+2.3.3.17,96ab0005-0457-41fd-a8a5-a96750a0f74e,,Must,96ab0005-0457-41fd-a8a5-a96750a0f74e_AC1,@priority_Must @req_2.3.3.17,8
+2.3.4.5,81a8d867-2325-4a77-b523-694586862462,,Should,81a8d867-2325-4a77-b523-694586862462_AC1,@priority_Should @req_2.3.4.5,9
+2.4,e69a0b3f-0905-4db8-8a84-a67d8e2cb703,,Must,e69a0b3f-0905-4db8-8a84-a67d8e2cb703_AC1,@priority_Must @req_2.4 @FDA21CFR11 @HIPAA,8
+2.4,e69a0b3f-0905-4db8-8a84-a67d8e2cb703,,Must,e69a0b3f-0905-4db8-8a84-a67d8e2cb703_AC2,@priority_Must @req_2.4 @FDA21CFR11 @HIPAA,8
+2.4,e69a0b3f-0905-4db8-8a84-a67d8e2cb703,,Must,e69a0b3f-0905-4db8-8a84-a67d8e2cb703_AC3,@priority_Must @req_2.4 @FDA21CFR11 @HIPAA,8
+2.7.1,1d6ddadd-128f-4015-8b1e-81ac6b88c648,,Must,1d6ddadd-128f-4015-8b1e-81ac6b88c648_AC1,@priority_Must @req_2.7.1,10
+2.7.1,1d6ddadd-128f-4015-8b1e-81ac6b88c648,,Must,1d6ddadd-128f-4015-8b1e-81ac6b88c648_AC2,@priority_Must @req_2.7.1,10
+2.7.2,948ee811-b316-4afc-a4a6-7c0b02afce23,,Must,948ee811-b316-4afc-a4a6-7c0b02afce23_AC1,@priority_Must @req_2.7.2 @FDA21CFR11 @HIPAA,10
+2.7.2,948ee811-b316-4afc-a4a6-7c0b02afce23,,Must,948ee811-b316-4afc-a4a6-7c0b02afce23_AC2,@priority_Must @req_2.7.2 @FDA21CFR11 @HIPAA,10
+2.7.3,1217893f-85c5-4ee0-bffa-a8cfff9509cc,,Should,1217893f-85c5-4ee0-bffa-a8cfff9509cc_AC1,@priority_Should @req_2.7.3,10
+2.8.2,b3db685e-3487-4261-bd01-9e6620626f13,,Must,b3db685e-3487-4261-bd01-9e6620626f13_AC1,@priority_Must @req_2.8.2 @FDA21CFR11 @HIPAA,4;8;10
+5.1.1.2,a13ecae7-0abc-4f22-887e-494b9f21867a,,Must,a13ecae7-0abc-4f22-887e-494b9f21867a_AC1,@priority_Must @req_5.1.1.2,13;14
+4.2.1,455bbfe1-7840-471f-a4bc-ba6963ee3d68,,Must,455bbfe1-7840-471f-a4bc-ba6963ee3d68_AC1,@priority_Must @req_4.2.1 @FDA21CFR11 @HIPAA,9;13
+5.1.1.3,d2ae83d7-6d7f-4a02-8dd7-f783b7930e56,,Must,d2ae83d7-6d7f-4a02-8dd7-f783b7930e56_AC1,@priority_Must @req_5.1.1.3,13;14;15
+5.1.1.3,d2ae83d7-6d7f-4a02-8dd7-f783b7930e56,,Must,d2ae83d7-6d7f-4a02-8dd7-f783b7930e56_AC2,@priority_Must @req_5.1.1.3,13;14;15
+5.1.1.3,d2ae83d7-6d7f-4a02-8dd7-f783b7930e56,,Must,d2ae83d7-6d7f-4a02-8dd7-f783b7930e56_AC3,@priority_Must @req_5.1.1.3,13;14;15
+5.1.1.4,befdf438-ead0-41c2-abb6-cbc7671a9055,,Should,befdf438-ead0-41c2-abb6-cbc7671a9055_AC1,@priority_Should @req_5.1.1.4 @HIPAA,13;14;15
+5.1.1.4,befdf438-ead0-41c2-abb6-cbc7671a9055,,Should,befdf438-ead0-41c2-abb6-cbc7671a9055_AC2,@priority_Should @req_5.1.1.4 @HIPAA,13;14;15
+5.1.1.5,b47f2700-db21-45a0-98a5-f8ad4f9e993a,,Must,b47f2700-db21-45a0-98a5-f8ad4f9e993a_AC1,@priority_Must @req_5.1.1.5,14
+5.1.2.3,c3444975-1707-4370-97ab-0c493c116d2f,,Must,c3444975-1707-4370-97ab-0c493c116d2f_AC1,@priority_Must @req_5.1.2.3 @HIPAA,13;14;15
+5.1.2.4,7b482248-47bf-452e-a4a6-edb289cc900d,,Should,7b482248-47bf-452e-a4a6-edb289cc900d_AC1,@priority_Should @req_5.1.2.4 @HIPAA,13;14
+5.1.2.5,8a482e31-4de8-45bc-972e-ffdfc0b82b7a,,Must,8a482e31-4de8-45bc-972e-ffdfc0b82b7a_AC1,@priority_Must @req_5.1.2.5 @HIPAA,14
+2.3.3.11;2.3.3.12;2.3.3.13;2.3.3.14;2.3.3.15;2.3.3.16,4eba10f6-82f0-4a46-9b95-204905491bf0,,Must,4eba10f6-82f0-4a46-9b95-204905491bf0_AC1,@priority_Must @req_2.3.3.11 @req_2.3.3.12 @req_2.3.3.13 @req_2.3.3.14 @req_2.3.3.15 @req_2.3.3.16 @HIPAA,8
+2.3.3.11;2.3.3.12;2.3.3.13;2.3.3.14;2.3.3.15;2.3.3.16,4eba10f6-82f0-4a46-9b95-204905491bf0,,Must,4eba10f6-82f0-4a46-9b95-204905491bf0_AC2,@priority_Must @req_2.3.3.11 @req_2.3.3.12 @req_2.3.3.13 @req_2.3.3.14 @req_2.3.3.15 @req_2.3.3.16 @HIPAA,8
+2.3.3.11;2.3.3.12;2.3.3.13;2.3.3.14;2.3.3.15;2.3.3.16,4eba10f6-82f0-4a46-9b95-204905491bf0,,Must,4eba10f6-82f0-4a46-9b95-204905491bf0_AC3,@priority_Must @req_2.3.3.11 @req_2.3.3.12 @req_2.3.3.13 @req_2.3.3.14 @req_2.3.3.15 @req_2.3.3.16 @HIPAA,8
+5.1.3.2,9c0a8fef-46d8-4db1-a1e9-5b3de8984004,,Must,9c0a8fef-46d8-4db1-a1e9-5b3de8984004_AC1,@priority_Must @req_5.1.3.2,14
+5.2.2.1,8217b80d-b3b0-49ef-bc65-12cce6b52deb,,Must,8217b80d-b3b0-49ef-bc65-12cce6b52deb_AC1,@priority_Must @req_5.2.2.1 @HIPAA,15
+5.3.1.1,ce16ca83-5426-4bb3-a58f-f1d109024906,,Must,ce16ca83-5426-4bb3-a58f-f1d109024906_AC1,@priority_Must @req_5.3.1.1 @HIPAA,15
+5.3.1.2,a00ebd1f-03ef-4ed0-8841-8fb69979f15d,,Must,a00ebd1f-03ef-4ed0-8841-8fb69979f15d_AC1,@priority_Must @req_5.3.1.2 @HIPAA,13;15
+5.3.1.3,7b3e4bc3-5a4a-4aab-963f-5d1e6b7bec37,,Must,7b3e4bc3-5a4a-4aab-963f-5d1e6b7bec37_AC1,@priority_Must @req_5.3.1.3 @HIPAA,15
+5.3.1.3,7b3e4bc3-5a4a-4aab-963f-5d1e6b7bec37,,Must,7b3e4bc3-5a4a-4aab-963f-5d1e6b7bec37_AC2,@priority_Must @req_5.3.1.3 @HIPAA,15
+5.3.2.1,0440cb0f-cea5-472b-8382-d59794355a0a,,Must,0440cb0f-cea5-472b-8382-d59794355a0a_AC1,@priority_Must @req_5.3.2.1 @HIPAA,13;15
+5.3.3.1,68231c2d-de07-4259-9c47-0f712303e85a,,Must,68231c2d-de07-4259-9c47-0f712303e85a_AC1,@priority_Must @req_5.3.3.1 @HIPAA,15
+5.3.3.2,fd51ae0f-0178-4c66-9f56-302100997b06,,Must,fd51ae0f-0178-4c66-9f56-302100997b06_AC1,@priority_Must @req_5.3.3.2 @HIPAA,15
+5.4.2.1,ef30b23c-d3b7-44b4-bae4-b205defa015b,,Should,ef30b23c-d3b7-44b4-bae4-b205defa015b_AC1,@priority_Should @req_5.4.2.1,16
+5.4.2.2,9dba99a4-e4ce-4562-bd61-fe8e4cebee06,,Must,9dba99a4-e4ce-4562-bd61-fe8e4cebee06_AC1,@priority_Must @req_5.4.2.2 @FDA21CFR11 @HIPAA,14;16
+5.4.2.2,9dba99a4-e4ce-4562-bd61-fe8e4cebee06,,Must,9dba99a4-e4ce-4562-bd61-fe8e4cebee06_AC2,@priority_Must @req_5.4.2.2 @FDA21CFR11 @HIPAA,14;16
+5.4.2.3,6fccb2f0-462d-435f-ae62-4cdbba4c7571,,Must,6fccb2f0-462d-435f-ae62-4cdbba4c7571_AC1,@priority_Must @req_5.4.2.3 @FDA21CFR11 @HIPAA,8;16
+5.4.2.3,6fccb2f0-462d-435f-ae62-4cdbba4c7571,,Must,6fccb2f0-462d-435f-ae62-4cdbba4c7571_AC2,@priority_Must @req_5.4.2.3 @FDA21CFR11 @HIPAA,8;16
+5.4.3.1,3414fb1b-9417-4da1-ad75-5a99e7eaafc4,,Should,3414fb1b-9417-4da1-ad75-5a99e7eaafc4_AC1,@priority_Should @req_5.4.3.1 @FDA21CFR11 @HIPAA,16
+5.4.3.2,aef5a6f5-4f05-4edc-b7cc-0cc2400483e1,,Must,aef5a6f5-4f05-4edc-b7cc-0cc2400483e1_AC1,@priority_Must @req_5.4.3.2 @FDA21CFR11 @HIPAA,5;8;16
+5.4.3.2,aef5a6f5-4f05-4edc-b7cc-0cc2400483e1,,Must,aef5a6f5-4f05-4edc-b7cc-0cc2400483e1_AC2,@priority_Must @req_5.4.3.2 @FDA21CFR11 @HIPAA,5;8;16
+5.4.3.3,0d1844fe-1194-402f-982c-5ef87217e3f4,,Must,0d1844fe-1194-402f-982c-5ef87217e3f4_AC1,@priority_Must @req_5.4.3.3 @FDA21CFR11 @HIPAA,16
+5.4.3.3,0d1844fe-1194-402f-982c-5ef87217e3f4,,Must,0d1844fe-1194-402f-982c-5ef87217e3f4_AC2,@priority_Must @req_5.4.3.3 @FDA21CFR11 @HIPAA,16
+AUTO-1,2f19080b-c4fc-4ee7-ae1a-149ad532b791,,Must,2f19080b-c4fc-4ee7-ae1a-149ad532b791_AC1,@priority_Must @req_AUTO-1 @FDA21CFR11 @HIPAA,4;13
+AUTO-1,2f19080b-c4fc-4ee7-ae1a-149ad532b791,,Must,2f19080b-c4fc-4ee7-ae1a-149ad532b791_AC2,@priority_Must @req_AUTO-1 @FDA21CFR11 @HIPAA,4;13
+2,cff2a72e-425d-4891-9277-503b84810b84,,Must,cff2a72e-425d-4891-9277-503b84810b84_AC1,@priority_Must @req_2 @FDA21CFR11 @HIPAA,8
+2,cff2a72e-425d-4891-9277-503b84810b84,,Must,cff2a72e-425d-4891-9277-503b84810b84_AC2,@priority_Must @req_2 @FDA21CFR11 @HIPAA,8
+1,2630be87-92a0-4589-a775-c5f4e26e35e2,,Must,2630be87-92a0-4589-a775-c5f4e26e35e2_AC1,@priority_Must @req_1,4
+1,2630be87-92a0-4589-a775-c5f4e26e35e2,,Must,2630be87-92a0-4589-a775-c5f4e26e35e2_AC2,@priority_Must @req_1,4
+1.2,2d2bb89c-8b78-43c3-9333-ca79f10c694c,,Must,2d2bb89c-8b78-43c3-9333-ca79f10c694c_AC1,@priority_Must @req_1.2,4
+1.3,569600a7-d599-433d-a8da-45e6a042c640,,Must,569600a7-d599-433d-a8da-45e6a042c640_AC1,@priority_Must @req_1.3 @FDA21CFR11 @HIPAA,4;5
+1.5,b70ee240-a075-4aca-a337-7677bfa78d11,,Must,b70ee240-a075-4aca-a337-7677bfa78d11_AC1,@priority_Must @req_1.5 @FDA21CFR11 @HIPAA,5
+2,a13a3f38-09bb-424e-86a2-89d59342669a,Implement Clinician Portal,Must,a13a3f38-09bb-424e-86a2-89d59342669a_AC1,@priority_Must @req_2 @FDA21CFR11 @HIPAA,4;6
+2.1,f0d52e99-1fe9-4d95-90ed-a582b8426fda,Implement Clinician Portal,Must,f0d52e99-1fe9-4d95-90ed-a582b8426fda_AC1,@priority_Must @req_2.1 @HIPAA,6
+2.2;2.3.2.8;2.3.2.11,2d3c7e56-665c-4979-9bea-46655b6f5722,Implement Clinician Portal,Must,2d3c7e56-665c-4979-9bea-46655b6f5722_AC1,@priority_Must @req_2.2 @req_2.3.2.8 @req_2.3.2.11 @FDA21CFR11 @HIPAA,6
+2.3,9303be75-30e5-4ffc-b9a4-1649388674aa,,Should,9303be75-30e5-4ffc-b9a4-1649388674aa_AC1,@priority_Should @req_2.3,10
+2.3.1.1,974710c5-6117-46d6-b719-2e3bae299c38,,Must,974710c5-6117-46d6-b719-2e3bae299c38_AC1,@priority_Must @req_2.3.1.1,6;10
+2.3.1.2,c1f650d5-cdd6-4e38-b0e1-37b7d276c133,,Must,c1f650d5-cdd6-4e38-b0e1-37b7d276c133_AC1,@priority_Must @req_2.3.1.2 @FDA21CFR11 @HIPAA,6
+2.3.1.3,d5bd9469-1afb-4b4d-8647-626c661b4569,,Must,d5bd9469-1afb-4b4d-8647-626c661b4569_AC1,@priority_Must @req_2.3.1.3 @FDA21CFR11 @HIPAA,6
+5.1.1,9e5fc573-ffd1-4f42-b8c0-ab93d354f3fd,,Must,9e5fc573-ffd1-4f42-b8c0-ab93d354f3fd_AC1,@priority_Must @req_5.1.1 @FDA21CFR11 @HIPAA,6;13
+2.3.3,a36c5efa-4c57-495a-af53-3195aca5e963,,Must,a36c5efa-4c57-495a-af53-3195aca5e963_AC1,@priority_Must @req_2.3.3 @FDA21CFR11 @HIPAA,8
+2.3.3,a36c5efa-4c57-495a-af53-3195aca5e963,,Must,a36c5efa-4c57-495a-af53-3195aca5e963_AC2,@priority_Must @req_2.3.3 @FDA21CFR11 @HIPAA,8
+2.3.3.1,0727dc20-8963-42dd-8568-6c8e8ab4d42f,,Should,0727dc20-8963-42dd-8568-6c8e8ab4d42f_AC1,@priority_Should @req_2.3.3.1,12
+2.3.3.2,10bf77db-2d1a-429d-aeae-c9f90c4b5759,,Should,10bf77db-2d1a-429d-aeae-c9f90c4b5759_AC1,@priority_Should @req_2.3.3.2,12
+2.3.3.3,b0c0a546-d260-4c3c-9fce-24983bb6c668,,Must,b0c0a546-d260-4c3c-9fce-24983bb6c668_AC1,@priority_Must @req_2.3.3.3,7
+2.3.3.3,b0c0a546-d260-4c3c-9fce-24983bb6c668,,Must,b0c0a546-d260-4c3c-9fce-24983bb6c668_AC2,@priority_Must @req_2.3.3.3,7
+2.3.3.4,05294210-26f5-4f73-a50c-5ad0e89e1bf4,,Should,05294210-26f5-4f73-a50c-5ad0e89e1bf4_AC1,@priority_Should @req_2.3.3.4,7
+2.3.3.4.1,933bb33d-1099-4396-8d5b-edf0bc4ce8f1,,Should,933bb33d-1099-4396-8d5b-edf0bc4ce8f1_AC1,@priority_Should @req_2.3.3.4.1,11;16
+2.3.3.4.3,89ae4778-6dcb-43e6-b867-5dd9183b2348,,Must,89ae4778-6dcb-43e6-b867-5dd9183b2348_AC1,@priority_Must @req_2.3.3.4.3 @HIPAA,12
+2.3.3.4.4;DHM_UC_24,1f2a3c55-f8fe-4c4c-a080-9e102ecf6e5d,,Should,1f2a3c55-f8fe-4c4c-a080-9e102ecf6e5d_AC1,@priority_Should @req_2.3.3.4.4 @req_DHM_UC_24,11
+2.3.3.4.5,6301fe0d-a335-4298-9495-b2c4a17b0331,,Must,6301fe0d-a335-4298-9495-b2c4a17b0331_AC1,@priority_Must @req_2.3.3.4.5 @HIPAA,7;16
+2.3.3.4.6,a122b9a4-7f69-4f76-b45c-18b743c08d48,,Should,a122b9a4-7f69-4f76-b45c-18b743c08d48_AC1,@priority_Should @req_2.3.3.4.6 @FDA21CFR11 @HIPAA,11
+2.3.3.4.7,427e47c7-4cc3-4766-b332-87afd3ee144e,,Should,427e47c7-4cc3-4766-b332-87afd3ee144e_AC1,@priority_Should @req_2.3.3.4.7,7
+2.3.3.5,6734ab19-4f4b-44c6-93d5-723d892ead5e,,Should,6734ab19-4f4b-44c6-93d5-723d892ead5e_AC1,@priority_Should @req_2.3.3.5,7
+2.3.3.5.1,aca0aadf-e3fa-44eb-add5-d5d9249890cf,,Must,aca0aadf-e3fa-44eb-add5-d5d9249890cf_AC1,@priority_Must @req_2.3.3.5.1 @FDA21CFR11 @HIPAA,11
+2.3.3.5.2,a259f8fc-3fa7-4309-ac71-6ad41aefeaee,,Must,a259f8fc-3fa7-4309-ac71-6ad41aefeaee_AC1,@priority_Must @req_2.3.3.5.2 @FDA21CFR11 @HIPAA,
+2.3.3.5.2,a259f8fc-3fa7-4309-ac71-6ad41aefeaee,,Must,a259f8fc-3fa7-4309-ac71-6ad41aefeaee_AC2,@priority_Must @req_2.3.3.5.2 @FDA21CFR11 @HIPAA,
+2.3.3.5.3,29783f7c-b8d7-4a25-a66a-f7c5c51282bf,,Must,29783f7c-b8d7-4a25-a66a-f7c5c51282bf_AC1,@priority_Must @req_2.3.3.5.3 @FDA21CFR11 @HIPAA,9
+2.3.3.8.1,50eeeacd-1394-4391-a4ea-c590a9af6fed,,Must,50eeeacd-1394-4391-a4ea-c590a9af6fed_AC1,@priority_Must @req_2.3.3.8.1 @FDA21CFR11 @HIPAA,8;11
+2.3.3.9.2,437404f5-333f-4a54-a14a-704709b66367,,Must,437404f5-333f-4a54-a14a-704709b66367_AC1,@priority_Must @req_2.3.3.9.2 @FDA21CFR11 @HIPAA,7
+2.3.3.10.2,ab33f4ea-adbb-48ed-82f8-0077692a3a02,,Must,ab33f4ea-adbb-48ed-82f8-0077692a3a02_AC1,@priority_Must @req_2.3.3.10.2 @FDA21CFR11 @HIPAA,11
+2.3.3.18,7ae58607-e46c-467c-b188-535e0fdf7d99,,Must,7ae58607-e46c-467c-b188-535e0fdf7d99_AC1,@priority_Must @req_2.3.3.18 @FDA21CFR11 @HIPAA,6
+2.3.3.19,9fe1d458-8b92-42c7-85e9-5ca13163fca7,,Should,9fe1d458-8b92-42c7-85e9-5ca13163fca7_AC1,@priority_Should @req_2.3.3.19,9
+2.6.3,641f9962-307c-49f3-9364-1340cdb36c84,,Must,641f9962-307c-49f3-9364-1340cdb36c84_AC1,@priority_Must @req_2.6.3 @FDA21CFR11 @HIPAA,5
+2.3.4.1,08d4a8cc-84f3-47d4-aff1-028a8dc99c58,,Must,08d4a8cc-84f3-47d4-aff1-028a8dc99c58_AC1,@priority_Must @req_2.3.4.1 @FDA21CFR11 @HIPAA,13
+2.3.4.3,3d340595-c6c5-4100-a1dc-395b2bcb141a,,Must,3d340595-c6c5-4100-a1dc-395b2bcb141a_AC1,@priority_Must @req_2.3.4.3 @HIPAA,9
+2.3.4.4,cd35ba62-501e-4019-8c87-03b32b21f49f,,Must,cd35ba62-501e-4019-8c87-03b32b21f49f_AC1,@priority_Must @req_2.3.4.4 @FDA21CFR11 @HIPAA,8
+2.3.4.6,e03258f7-4795-47b2-ae78-bd33e98deb8f,,Must,e03258f7-4795-47b2-ae78-bd33e98deb8f_AC1,@priority_Must @req_2.3.4.6,5
+2.5.3,3375a838-a8be-4fe0-adaa-b87b2c9f3fdb,,Must,3375a838-a8be-4fe0-adaa-b87b2c9f3fdb_AC1,@priority_Must @req_2.5.3 @FDA21CFR11 @HIPAA,5
+2.6.1,c9716534-06d3-47d8-ae79-4f2f64353527,,Must,c9716534-06d3-47d8-ae79-4f2f64353527_AC1,@priority_Must @req_2.6.1 @HIPAA,6;13
+2.6.2,00641622-bb3d-445e-a065-7f391d153bae,,Must,00641622-bb3d-445e-a065-7f391d153bae_AC1,@priority_Must @req_2.6.2 @HIPAA,13;15
+2.6.2,00641622-bb3d-445e-a065-7f391d153bae,,Must,00641622-bb3d-445e-a065-7f391d153bae_AC2,@priority_Must @req_2.6.2 @HIPAA,13;15
+2.7,df1f87b6-3cde-4d68-b994-b21d2150b588,,Must,df1f87b6-3cde-4d68-b994-b21d2150b588_AC1,@priority_Must @req_2.7,10
+2.8,1f15797c-47ab-48b3-b4a0-3b9ee8624683,,Should,1f15797c-47ab-48b3-b4a0-3b9ee8624683_AC1,@priority_Should @req_2.8,10
+2.8.3,be545b08-b533-4efd-b075-79462cbd632f,,Must,be545b08-b533-4efd-b075-79462cbd632f_AC1,@priority_Must @req_2.8.3 @FDA21CFR11 @HIPAA,13
+3,65c3f511-b6a1-4f6c-8bf8-60ce424133c2,,Must,65c3f511-b6a1-4f6c-8bf8-60ce424133c2_AC1,@priority_Must @req_3 @FDA21CFR11 @HIPAA,11
+4,084b874b-e00d-4f7c-aabc-8161029574d1,,Should,084b874b-e00d-4f7c-aabc-8161029574d1_AC1,@priority_Should @req_4,12;13
+4.1,65fa9a40-2b58-4a22-a4ab-c1a86c3509d1,,Must,65fa9a40-2b58-4a22-a4ab-c1a86c3509d1_AC1,@priority_Must @req_4.1 @HIPAA,11;13
+4.3.1,8cbe08d1-8690-4095-9dda-3282c54ce51c,,Must,8cbe08d1-8690-4095-9dda-3282c54ce51c_AC1,@priority_Must @req_4.3.1 @FDA21CFR11 @HIPAA,8
+4.4.1,dadaf903-68a9-4c4f-ada8-2c1d183f6d35,,Must,dadaf903-68a9-4c4f-ada8-2c1d183f6d35_AC1,@priority_Must @req_4.4.1 @HIPAA,15
+5,bd869b36-1221-43db-aaff-36ad08100b5f,,Must,bd869b36-1221-43db-aaff-36ad08100b5f_AC1,@priority_Must @req_5,13;14
+5.1,4aa7ed69-11ff-4ecd-9870-904762d26a1d,,Must,4aa7ed69-11ff-4ecd-9870-904762d26a1d_AC1,@priority_Must @req_5.1,13;14
+5.1,4aa7ed69-11ff-4ecd-9870-904762d26a1d,,Must,4aa7ed69-11ff-4ecd-9870-904762d26a1d_AC2,@priority_Must @req_5.1,13;14
+5.1,4aa7ed69-11ff-4ecd-9870-904762d26a1d,,Must,4aa7ed69-11ff-4ecd-9870-904762d26a1d_AC3,@priority_Must @req_5.1,13;14
+5.1.1.1,ff37c065-154f-4c46-b014-b99fb12e4316,,Must,ff37c065-154f-4c46-b014-b99fb12e4316_AC1,@priority_Must @req_5.1.1.1 @HIPAA,8;13;14
+5.1.2,9a36b1ee-200a-4aae-80fc-554f662a5240,,Must,9a36b1ee-200a-4aae-80fc-554f662a5240_AC1,@priority_Must @req_5.1.2 @FDA21CFR11 @HIPAA,4
+5.1.3,3bd45bdc-52a5-4dcf-ad05-78cb739eb528,,Must,3bd45bdc-52a5-4dcf-ad05-78cb739eb528_AC1,@priority_Must @req_5.1.3,5
+5.1.3.3,9699e889-b138-497f-8da6-c8f2c546d64c,,Must,9699e889-b138-497f-8da6-c8f2c546d64c_AC1,@priority_Must @req_5.1.3.3 @HIPAA,5
+5.2,85418a4e-446b-4143-b597-1e50fcd349cd,,Should,85418a4e-446b-4143-b597-1e50fcd349cd_AC1,@priority_Should @req_5.2,14;15
+5.2,85418a4e-446b-4143-b597-1e50fcd349cd,,Should,85418a4e-446b-4143-b597-1e50fcd349cd_AC2,@priority_Should @req_5.2,14;15
+5.2,85418a4e-446b-4143-b597-1e50fcd349cd,,Should,85418a4e-446b-4143-b597-1e50fcd349cd_AC3,@priority_Should @req_5.2,14;15
+5.2.1,b92a4e5f-a742-4785-8420-334e719684ab,,Must,b92a4e5f-a742-4785-8420-334e719684ab_AC1,@priority_Must @req_5.2.1 @FDA21CFR11 @HIPAA,6;13
+5.2.1.1,dc3d8271-c4be-4dbd-840c-db204664d3a9,,Must,dc3d8271-c4be-4dbd-840c-db204664d3a9_AC1,@priority_Must @req_5.2.1.1 @HIPAA,13;15
+5.2.2,ef9b62f9-1265-4c4d-aed0-dee12c80aefc,,Must,ef9b62f9-1265-4c4d-aed0-dee12c80aefc_AC1,@priority_Must @req_5.2.2 @FDA21CFR11 @HIPAA,4
+5.2.3.1,1ac23ddd-f53b-4206-ad19-3ca5605a90b1,,Must,1ac23ddd-f53b-4206-ad19-3ca5605a90b1_AC1,@priority_Must @req_5.2.3.1 @FDA21CFR11 @HIPAA,8;14
+5.3,3271bd4a-0bc7-460c-a392-7b618509a8f2,,Must,3271bd4a-0bc7-460c-a392-7b618509a8f2_AC1,@priority_Must @req_5.3,13;15
+5.3.1,b15bcd67-787b-445e-8b42-c21c5bb270fa,,Must,b15bcd67-787b-445e-8b42-c21c5bb270fa_AC1,@priority_Must @req_5.3.1 @HIPAA,6;13
+5.3.2,f06ef03b-9632-42c6-b117-4d0ad8c098f8,,Must,f06ef03b-9632-42c6-b117-4d0ad8c098f8_AC1,@priority_Must @req_5.3.2 @FDA21CFR11 @HIPAA,4
+5.3.3,4dbede1a-3d42-4949-a4a3-5aa5bec93eab,,Must,4dbede1a-3d42-4949-a4a3-5aa5bec93eab_AC1,@priority_Must @req_5.3.3,5
+5.3.3,4dbede1a-3d42-4949-a4a3-5aa5bec93eab,,Must,4dbede1a-3d42-4949-a4a3-5aa5bec93eab_AC2,@priority_Must @req_5.3.3,5
+5.3.3,4dbede1a-3d42-4949-a4a3-5aa5bec93eab,,Must,4dbede1a-3d42-4949-a4a3-5aa5bec93eab_AC3,@priority_Must @req_5.3.3,5
+5.4,1f0babdc-7ab3-4acb-9476-e4c829c6f662,,Must,1f0babdc-7ab3-4acb-9476-e4c829c6f662_AC1,@priority_Must @req_5.4 @FDA21CFR11 @HIPAA,8;15
+5.4,1f0babdc-7ab3-4acb-9476-e4c829c6f662,,Must,1f0babdc-7ab3-4acb-9476-e4c829c6f662_AC2,@priority_Must @req_5.4 @FDA21CFR11 @HIPAA,8;15
+5.4.1,3918a7a1-8d89-44ef-84e1-f6c86c5d7b66,,Must,3918a7a1-8d89-44ef-84e1-f6c86c5d7b66_AC1,@priority_Must @req_5.4.1 @FDA21CFR11 @HIPAA,6;13
+5.4.1.1,4246c8f4-e5ad-4a05-a704-fe8c5127152e,,Must,4246c8f4-e5ad-4a05-a704-fe8c5127152e_AC1,@priority_Must @req_5.4.1.1,6;11;13
+5.4.1.2,4b3aa627-8d93-433f-9189-fcd1de80e9c8,,Must,4b3aa627-8d93-433f-9189-fcd1de80e9c8_AC1,@priority_Must @req_5.4.1.2,15
+5.4.2,dcca3410-e2cd-48f3-8658-325a412eb531,,Must,dcca3410-e2cd-48f3-8658-325a412eb531_AC1,@priority_Must @req_5.4.2 @FDA21CFR11 @HIPAA,4
+5.4.3,85a4042f-8972-40b9-8def-ef8d803315ab,,Must,85a4042f-8972-40b9-8def-ef8d803315ab_AC1,@priority_Must @req_5.4.3 @FDA21CFR11 @HIPAA,5
+1,4cacda81-286c-46f1-be12-7ff5626221dd,,Must,4cacda81-286c-46f1-be12-7ff5626221dd_AC1,@priority_Must @req_1 @FDA21CFR11 @HIPAA,4;16

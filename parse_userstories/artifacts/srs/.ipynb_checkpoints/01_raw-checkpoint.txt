@@ -1,0 +1,796 @@
+Software Requirements  
+
+.
+
+Specification 
+
+for 
+
+Day Health Manager 
+
+Version 1.1 
+
+Prepared by 4yourhealth 
+
+Senior Project 2015 
+
+2/10/2015 
+
+ 
+ 
+ 
+Table of Contents 
+
+Table of Contents 
+Revision History 
+Introduction 
+Purpose 
+Document Conventions 
+Intended Audience and Reading Suggestion 
+Project Scope 
+References 
+Overall Description 
+
+Product Perspective 
+Product Features 
+User Classes and Characteristics 
+Operating Environment 
+Design and Implementation Constraints 
+User Documentation 
+Assumptions and Dependencies 
+
+System Features 
+External Interface Requirements 
+
+User Interfaces 
+Hardware Interfaces 
+Software Interfaces 
+Communications Interfaces 
+Other Nonfunctional Requirements 
+Performance Requirements 
+Safety Requirements 
+Security Requirements 
+Software Quality Attributes 
+
+Other Requirements 
+
+Revision History 
+
+Name 
+Zachary Nielsen 
+Zachary Nielsen 
+Daniel Hudy 
+
+Reason For Changes 
+Initial creation 
+
+Date 
+2/10/15 
+3/07/15  Customer request 
+4/28/15  Revision after Session App changes 
+
+Version 
+1.0.0 
+1.1.0 
+1.2.0 
+
+ 
+ 
+ 
+ 
+1.
+
+Introduction 
+
+1.1. Purpose  
+
+The Trillium Health Day Health Manager is a system primarily used to assist Day Health 
+
+staff in the tracking and care of patients in their Day Health program by multiple means. An 
+important assistive activity the system provides is to digitize what are currently physical artifacts 
+such as patient assessments, care plans, and patient sign in/outs. As an improvement to the 
+current physical workflow, the system will automate tracking of individuals through the program. 
+In addition, the system will assist the staff in clerical duties such as billing, report generation, 
+overseeing compliance with patients care plans, and providing tools to assist in the case of an 
+audit. 
+
+The system will accomplish these goals through the implementation of a desktop 
+interface, database, and mobile application. The Clinician Portal will assist the Day Health staff 
+in the creation and retrieval of their electronic medical records, billing, and report generation. 
+The database will persistently track the status of the individuals enrolled in their program, and 
+the mobile application will assist patients with signing in and out. 
+
+1.2. Document Conventions 
+
+This document has been broken into three parts under most sections to cover the three 
+
+fundamental parts of the application, the database, the Clinician Portal, and the session 
+application. This document is modeled after the SRS template from the Software Requirements 
+and Architecture class [A:1]. Throughout the document we reference different appendices, these 
+references will be noted with the following convention: [Appendix Letter:Item Number]. For 
+example the notation for referencing item one in appendix A (The SRS Template) would be 
+[A:1]. 
+
+1.3.
+
+Intended Audience and Reading Suggestion 
+
+The intended audience of this document is all major stakeholders which include the 
+
+development team, the project owner, the project customer, the senior project advisor 
+(Professor Hawker), and anyone evaluating the project. It is recommended that you check out 
+our team’s website and the documents hosted there for better background on the project, 
+process, and the team. 
+
+ 
+ 
+ 
+1.4. Project Scope 
+
+The scope for this project includes everything Trillium needs to replace their current 
+
+system with our system in addition to a couple of extra features. The scope primarily consists of 
+three parts, the database, the clinician portal, and the session application. The three of those 
+parts each have a distinct scope. 
+
+The database must be able to track all of the data that Trillium is looking to store. A huge 
+
+part of this involves scanning and storing documents on a per patient basis. Each document 
+may have different pieces of data that need to be tracked in the database. The database will be 
+in charge of keeping track of what pieces of data each document is associated with as well as 
+storing each instance of that data that has been input. The database will also store session data 
+from each of Trillium’s patient sessions. This includes everything from departure and arrival 
+times, session notes, and individual session notes. More specifics on data to be stored can be 
+found in the product features section. 
+
+The clinician portal is the primary user interface for our system. This will be a web 
+application accessible from any compatible web browser. The clinician portal has 3 major parts: 
+patients, sessions, and statistics/billing. The patients section will be where the user can add, 
+modify, or check any patient data stored in the system. This includes basic functionality such as 
+adding a new patient, adding a new scanned document to a patient, or checking on a patient’s 
+basic info. The session section is where a user can go to add, modify, or check on any session 
+data. This includes functionality such as scheduling a new session, modifying a session leader, 
+or checking which classes are scheduled on a specific day. The third basic part is 
+statistics/billing. The statistics/billing section will be where the user can find tools that are able to 
+run tracking associated with patient data and billing. This may involve a tool that can get the 
+patients that are billable for the week or similar tools. 
+
+The session application is used by session leaders to standardize attendance tracking 
+
+and session note­keeping. The session application will primarily be used to keep track of 
+patients signing in to sessions. The session application will interface with a fingerprint scanner 
+that the user will need to use to sign into a session. This gives Trillium a unique and precise 
+timestamp for each individual that will allow them to determine how long a patient has been at 
+each session.  
+
+1.5. References 
+
+Title 
+
+Corresponding File/Address 
+
+Team Website 
+
+http://www.se.rit.edu/~foryourhealth/ 
+
+ 
+ 
+ 
+ 
+2. Overall Description 
+
+2.1. Product Perspective 
+
+2.1.1. Database 
+
+Currently Trillium health uses largely paper forms and sharepoint to manage their 
+patients care. This has been a less than an ideal solution, but no good medical software 
+systems exist for group settings. The database’s role will be to host relevant documents and 
+relate patient and clinical information in a meaningful way. 
+2.1.2. Application 
+
+A clinician portal is required to present and organize the contents of the database. This 
+
+is the user­facing aspect of the system and will be implemented with special consideration given 
+to usability. A successful implementation of this user interface will above all provide faster 
+access to, and better presentation of, the clinic’s data. 
+2.1.3. Session App 
+
+Another application is necessary to allow patients to easily check in to Day Health and 
+
+into specific sessions. This will allow the patients to verify their attendance using their 
+fingerprints. 
+
+2.2. Product Features 
+
+Install 
+
+2.3.
+2.3.1.1.
+2.3.1.2.
+2.3.1.3.
+2.3.2. Database 
+2.3.2.1.
+2.3.2.2.
+2.3.2.3.
+2.3.2.4.
+2.3.2.5.
+2.3.2.6.
+2.3.2.7.
+2.3.2.8.
+2.3.2.9.
+2.3.2.10.
+2.3.2.11.
+2.3.2.12.
+2.3.2.13.
+2.3.2.14.
+2.3.2.15.
+
+A way for trillium to install the database 
+A way for trillium to install the server app 
+A way for trillium to install the front end application 
+
+Stores previous states of all tables with all changes made to them 
+Can store patients signing in for the day 
+Can store patients signing out for the day 
+Can store patients signing in for sessions 
+Can store patients signing out for sessions 
+Can store new documents in the database 
+Store structure of new documents created 
+Can store patient care plans 
+Can track reviews of care plans 
+Can track approval of care plans 
+Can store care plan updates and changes 
+Can store tracks 
+Can store classes 
+Can link patients to classes 
+Can store schedules 
+
+2.3.2.16.
+2.3.2.17.
+2.3.2.18.
+2.3.2.19.
+2.3.2.20.
+2.3.2.21.
+2.3.2.22.
+2.3.2.23.
+2.3.2.24.
+2.3.2.25.
+2.3.3. Clinician Portal 
+2.3.3.1.
+2.3.3.2.
+2.3.3.3.
+2.3.3.4.
+2.3.3.4.1.
+2.3.3.4.2.
+2.3.3.4.3.
+2.3.3.4.4.
+2.3.3.4.5.
+2.3.3.4.6.
+2.3.3.4.7.
+2.3.3.5.
+2.3.3.5.1.
+2.3.3.5.2.
+2.3.3.5.3.
+2.3.3.5.4.
+2.3.3.6.
+2.3.3.7.
+2.3.3.8.
+2.3.3.8.1.
+2.3.3.8.2.
+2.3.3.8.3.
+2.3.3.8.4.
+2.3.3.9.
+2.3.3.9.1.
+2.3.3.9.2.
+2.3.3.10.
+2.3.3.10.1.
+2.3.3.10.2.
+2.3.3.10.3.
+2.3.3.10.4.
+
+Can store sessions  
+Can store all data associated with sessions 
+Can store group notes for sessions 
+Can store individual notes for session 
+Can link users to tracks 
+Can calculate Assessment timeline 
+Can calculate who is billable based on dates 
+Can keep track of what claims has been sent for 
+Can keep track of claims that have been accepted or denied 
+Will have stored procedures for calculations within the database 
+
+Will have a way to configure external data requests 
+Will have a way to get external data through configured connections and scripts 
+The user shall have access to a “Start Screen” 
+The user shall be able to a view a Metrics page, with the following displayed... 
+­ Number of Patients enrolled 
+­ Percentage of service encounters billed 
+­ Total Dollars billed 
+­ Average percentage attendance for ADHP 
+­ Net Revenue 
+­ Receivables for the past 90 days 
+­ HIV Health aggregated 
+The user shall have access to a Patient page, with the following displayed... 
+­ Viewing of the Patient's care plans 
+­ 
+Links to other patient Documents 
+​
+­ 
+Session attendance 
+​
+­ Billing information 
+The Portal will display a list of sessions  
+The user shall be able to select a particular session to see more details  
+The user shall be able to see Session information  
+­ Facilitator information 
+­ Time and scheduling  
+­ Attendance 
+­ Group and Individual notes 
+Support for entering and viewing patient assessments 
+­ Nursing, Nutrition, Health Literacy, Care Management, Behavioral Health, etc. 
+The user shall be able to create new assessment types 
+The user shall be able to conduct the Care­plan process 
+­ Perform Care­plan Review 
+­ Approve a Care­plan 
+­ View Care­plan history 
+­ Make updates or changes to a Care­plan 
+
+2.3.3.11.
+following... 
+2.3.3.12.
+2.3.3.13.
+2.3.3.14.
+2.3.3.15.
+2.3.3.16.
+2.3.3.17.
+2.3.3.18.
+2.3.3.19.
+2.3.4. Session App 
+2.3.4.1.
+2.3.4.2.
+2.3.4.3.
+2.3.4.4.
+2.3.4.5.
+2.3.4.6.
+
+The Portal shall support auditing of Documents and other data with the 
+
+­ Tracking addition of new documents or data 
+­ Allowing and Tracking changes to existing documents or data 
+­ Allowing and Tracking deletions of existing documents or data 
+­ Reports which show auditing history, per user or per patient. 
+­ Export of auditing histories 
+Clearly demonstrate the link between patient goals and sessions. 
+Either catalog document locations, or display the documents in the application.  
+Add fingerprints to the database for each user 
+
+Maintain a local copy of patient fingerprints for off­site purposes 
+Fingerprint scanner sign­in and sign­out for the day and individual sessions 
+Has a backup way to sign­in and out in case of fingerprint scanner error 
+Ability for facilitator to override sign­in or out in case of fingerprint or backup error 
+Overview of attendance for particular day or session 
+Ability for facilitator to create a new session 
+
+2.4. User Classes and Characteristics 
+
+IT Personnel: 
+
+Technical Skill : Has full understanding of the system, and working knowledge of SQL 
+Frequency of Use : Low 
+Education Level : At least formal training or some college 
+Privileges : Administrator privileges ­ has access to all parts of the system and can 
+
+directly access the database 
+
+Experience with System : High 
+Product Functions: Run database queries, add new forms 
+
+Clinician 
+
+Technical Skill: Low to medium 
+Frequency of Use: Multiple times per day 
+Education Level: Non­specific 
+Privileges: Read access to all documents, write access only upon creation or special 
+
+cases.  
+
+Experience with System: Medium 
+Product Functions: View and interpret data and documents, create and add new 
+
+documents.  
+
+Patient 
+
+Technical Skill: Low 
+Frequency of Use: Multiple times per day 
+Education Level: Not Specified 
+
+ 
+ 
+Privileges: Session/Daily attendance through fingerprint scanner 
+Experience with System: Low 
+Product Functions: Check in to session or day through fingerprint scanner. 
+
+Facilitator 
+
+Technical Skill: Low to medium 
+Frequency of Use: Multiple times per day 
+Education Level: Non­specific 
+Privileges: Read access to session attendance 
+Experience with System: Medium 
+Product Functions: Confirm session attendance taken through fingerprint scanner. 
+
+2.5. Operating Environment 
+
+2.5.1. Database 
+
+The database will exist on a Microsoft Windows Server That runs MSSQL 2008. This 
+
+server will only serve requests from inside trillium. 
+2.5.2. Application 
+
+The main user application will be built as a web­based system. Users will access it 
+
+through a browser and login window. The spring MVC model will be used as a base. 
+2.5.3. Session App 
+
+The session application will be hosted on laptops with Windows OS. 
+
+. 
+
+2.6. Design and Implementation Constraints 
+
+2.6.1. Database 
+
+Database needs to be available to internal sources for queries. The customer would like 
+
+the database to be able to be easily modified in the future for other teams to upgrade the 
+system or do work on it. 
+2.6.2. Application 
+
+Features need to be supportable in a web­application, security features and security 
+
+design must address this reliance on the web. Additionally, both the design and the 
+implementation needs to be usable by all clinicians. 
+2.6.3. Session App 
+
+2.7. User Documentation 
+
+2.7.1. Database 
+
+ 
+ 
+ 
+ 
+User documentation will consist of the Database Schema and how to guide for running 
+
+database setup script. 
+2.7.2. Application 
+
+The application shall have tutorial documentation, for the purpose of educating new 
+
+users as well as acting as a reference. Clear procedures and proper protocol must be explained 
+in detail, as often these tasks must respect both legal and business concerns. These 
+procedures shall be presented in step­by­step instructions which are accompanied by both 
+screenshots and in­application tooltips. The goal here is to produce an interface which can 
+self­teach its own practice to any first time users. 
+2.7.3. Session App 
+
+User documentation will be limited on the session application as this is intended to be an 
+
+internal attendance verification/recording and note taking application. Navigation will be clearly 
+marked and tool tips will be used to guide new facilitators. 
+
+2.8. Assumptions and Dependencies 
+
+2.8.1. Database 
+
+Use of MS­SQL depends upon a Microsoft Windows operating system. 
+
+2.8.2. Application 
+
+Dependent on Trillium’s Local Area Network. Will also depend upon the functioning of 
+
+the “Spring” model, upon which the Clinician Portal is being built(the customer already has 
+experience working with “Spring”). Assume user’s are capable of using internet browsers. 
+Assume that Day­Health continues to track patients and sessions in much the same way they 
+do now. 
+2.8.3. Session App 
+
+Fingerprint scanner is being built using customizations to the Person ID software offered 
+
+by 360 Biometrics. We are working through their representative Pinky Thakkar to ensure that 
+our software and database integrates smoothly with Person ID. We are assuming that by 
+working closely with their development team we will be able to lower the chance of having large 
+integration issues.  
+
+ 
+ 
+ 
+ 
+ 
+3. System Features 
+
+Use Cases 
+
+Primary Actors 
+
+ID 
+
+Name 
+
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Clinician 
+Patient 
+Patient 
+Clinician 
+Patient 
+Patient 
+Facilitator 
+
+A clinician logs in 
+A clinician logs out 
+A clinician adds a new patient 
+A clinician adds a patients care plan 
+A clinician updates a patients care plan 
+A clinician views a patients care plan 
+A clinician views a patients session attendance 
+A clinician views a patients medical assessments 
+A clinician adds a document template to the system 
+
+DHM_UC_1 
+DHM_UC_2 
+DHM_UC_3 
+DHM_UC_4 
+DHM_UC_5 
+DHM_UC_6 
+DHM_UC_7 
+DHM_UC_8 
+DHM_UC_9 
+DHM_UC_10  A clinician edits an existing document template 
+DHM_UC_11  A clinician views a document template in the system 
+DHM_US_12  A clinician deletes a document template from the system 
+DHM_UC_13  A clinician adds a class to the system 
+DHM_UC_14  A clinician edits a class in the system 
+DHM_UC_15  A clinician views a class in the system 
+DHM_UC_16  A clinician deletes a class from the system 
+DHM_UC_17  A clinician creates an instance of a document 
+DHM_UC_18  A clinician edits an instance of a document 
+DHM_UC_19  A clinician views an instance of a document 
+DHM_UC_20  A clinician deletes an instance of a document 
+DHM_UC_21  A clinician views the audit history of a document 
+DHM_UC_22  A clinician prints a document instance 
+DHM_UC_23  A clinician assigns classes to a patient based on CCP 
+DHM_UC_24  A clinician views overall program statistics 
+DHM_UC_25  A clinician navigates the Clinician Portal 
+DHM_UC_26  A patient signs in for the day 
+DHM_UC_27  A patient signs out for the day 
+DHM_UC_28  A clinician overrides the patients sign out for the day 
+DHM_UC_29  A patient signs in for a session 
+DHM_UC_30  A patient signs out of a session 
+DHM_UC_31  A facilitator overrides the patient sign in for the session 
+
+ 
+ 
+Facilitator 
+Facilitator 
+Facilitator 
+IT 
+IT 
+IT 
+Clinician 
+Clinician 
+Clinician 
+See external Use Cases document for actual use cases with their 
+
+DHM_UC_32  A facilitator overrides the patient sign out for the session 
+DHM_UC_33  A facilitator creates a new session 
+DHM_UC_34  A facilitator ends a session 
+DHM_UC_36  An IT person runs a query on the database 
+DHM_UC_37  An IT person edits an external data source config 
+DHM_UC_38  An IT person configures a new data piece 
+DHM_UC_39  A clinician runs a billing report 
+DHM_UC_40  A clinician marks a billing as sent 
+DHM_UC_41  A clinician updates a billing status 
+
+detailed descriptions. 
+
+ 
+ 
+4. External Interface Requirements 
+
+4.1. User Interfaces 
+
+4.1.1. Clinician Portal 
+
+As a web­based application, will be the primary channel through which users access or 
+
+modify any information in the database. Shall rely on common web­application standards, 
+specifically AJAX and require users to access through a browser. The interface must be easy to 
+learn and navigate quickly. 
+
+4.2. Hardware Interfaces 
+
+4.2.1. Session Application 
+
+The session application requires an external fingerprint scanner supported by the 
+
+custom version of Person ID. 
+
+4.3. Software Interfaces 
+
+4.3.1. Clinician Portal to Database 
+4.3.2. Session Application to Database 
+4.3.3. Person ID to Database 
+
+4.4. Communications Interfaces 
+
+4.4.1. The database will communicate via an encrypted remote connection using SSL. 
+
+5. Other Nonfunctional Requirements 
+
+5.1. Performance Requirements 
+
+5.1.1. Database 
+5.1.1.1.
+5.1.1.2.
+5.1.1.3.
+connection active 
+5.1.1.4.
+database connection active 
+
+The database shall be available 99% of the time during business hours 
+The database shall be available 95% of the time during non­business hours 
+No Database query shall take more than 5 seconds with only one database 
+
+On average a database query shall take less than .5 seconds with only one 
+
+ 
+ 
+ 
+No database query shall take more than 10 seconds while less than 25 database 
+
+On average a database query shall take less than 2 seconds while less than 25 
+
+No page shall take more than 2 seconds to access with only one user online 
+On average no page shall take more than .5 seconds to access with only one 
+
+No page shall ever take more than 5 seconds to access 
+On average no page shall take more than 2 seconds to access 
+The clinician portal shall be accessible via an internet connection 99.9% of the 
+
+Fingerprint scanning shall recognize registered users 95% of the time 
+Fingerprint scanning shall return results within 1 second 
+The Session app will be operational 99.99% of the time regardless of an internet 
+
+5.1.1.5.
+connections are active 
+5.1.1.6.
+database connections are active 
+5.1.2. Application 
+5.1.2.1.
+5.1.2.2.
+user online 
+5.1.2.3.
+5.1.2.4.
+5.1.2.5.
+time during business hours 
+5.1.3. Session App 
+5.1.3.1.
+5.1.3.2.
+5.1.3.3.
+connection 
+
+5.2. Safety Requirements 
+
+5.2.1. Database 
+5.2.1.1.
+5.2.2. Application 
+5.2.2.1.
+not authorized to see it. 
+5.2.3. Session App 
+5.2.3.1.
+authorized to see it. 
+
+Data from the database will never be transmitted to unauthenticated sources 
+
+The clinician application will never disclose patient information to users that are 
+
+The session app will never disclose Patient information to users that are not 
+
+ 
+ 
+5.3. Security Requirements
+
+The database must be encrypted at rest 
+All request and data transfer between the server in the database must be done 
+
+The database must only be accessible by devices on the same network 
+
+All communication between the server and Clinician Application will be done over 
+
+All patient information stored locally on the computer running the session app 
+
+All communication between the server and Session app will be done over SSL 
+
+5.4. Software Quality Attributes 
+
+Database is normalized 
+AJ gives approval of database schema 
+
+Clinician application is rated at ⅘ or above by at least 85% of clinicians for 
+
+Clinician application is rated at ⅘ or above by at least 80% of clinicians for ease of 
+
+5.3.1. Database 
+5.3.1.1.
+5.3.1.2.
+over an SSL connection 
+5.3.1.3.
+5.3.2. Application 
+5.3.2.1.
+SSL. 
+5.3.3. Session App 
+5.3.3.1.
+must be encrypted 
+5.3.3.2.
+
+5.4.1. Database 
+5.4.1.1.
+5.4.1.2.
+5.4.2. Application 
+5.4.2.1.
+aesthetics 
+5.4.2.2.
+use 
+
+ 
+ 
+5.4.2.3.
+learning 
+5.4.3. Session App 
+5.4.3.1.
+5.4.3.2.
+5.4.3.3.
+learning 
+
+Clinician application is rated at ⅘ or above by at least 90% of clinicians for ease of 
+
+Session app is rated at ⅘ or above by at least 85% of facilitators for aesthetics 
+Session app is rated at ⅘ or above by at least 80% of facilitators for ease of use 
+Session app is rated at ⅘ or above by at least 90% of facilitators for ease of 
+
+Appendix A: Glossary 
+
+1. The term “Clinician Portal” or “CP” refers to the web­based user interface that most clinic 
+workers will use to interact with the database. This may be referred to as the “Desktop 
+Application” in older documentation. 
+
+ 
+ 
+ 
+

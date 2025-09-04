@@ -1,0 +1,52 @@
+[
+  {
+    "req_id": "5.4.1.2",
+    "text": ".AJ gives approval of database schema",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.2",
+    "text": ".Application",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.2.1",
+    "text": ".Clinician application is rated at ⅘ or above by at least 85% of clinicians for aesthetics",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.2.2",
+    "text": ".Clinician application is rated at ⅘ or above by at least 80% of clinicians for ease of use",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.2.3",
+    "text": ".Clinician application is rated at ⅘ or above by at least 90% of clinicians for ease of learning",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.3",
+    "text": ".Session App",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.3.1",
+    "text": ".Session app is rated at ⅘ or above by at least 85% of facilitators for aesthetics",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.3.2",
+    "text": ".Session app is rated at ⅘ or above by at least 80% of facilitators for ease of use",
+    "epic": "General"
+  },
+  {
+    "req_id": "5.4.3.3",
+    "text": ".Session app is rated at ⅘ or above by at least 90% of facilitators for ease of learning Appendix A: Glossary",
+    "epic": "General"
+  },
+  {
+    "req_id": "1",
+    "text": ".The term “Clinician Portal” or “CP” refers to the web­based user interface that most clinic workers will use to interact with the database. This may be referred to as the “Desktop Application” in older documentation.",
+    "epic": "General"
+  }
+]
