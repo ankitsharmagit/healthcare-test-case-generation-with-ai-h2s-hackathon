@@ -1,0 +1,52 @@
+[
+  {
+    "req_id": "AUTO-1",
+    "text": ". Software Requirements Specification for Day Health Manager Version 1.1 Prepared by 4yourhealth Senior Project 2015",
+    "epic": "General"
+  },
+  {
+    "req_id": "2",
+    "text": "/10/2015 Table of Contents Table of Contents Revision History Introduction Purpose Document Conventions Intended Audience and Reading Suggestion Project Scope References Overall Description Product Perspective Product Features User Classes and Characteristics Operating Environment Design and Implementation Constraints User Documentation Assumptions and Dependencies System Features External Interface Requirements User Interfaces Hardware Interfaces Software Interfaces Communications Interfaces Other Nonfunctional Requirements Performance Requirements Safety Requirements Security Requirements Software Quality Attributes Other Requirements Revision History Name Date Reason For Changes Version Zachary Nielsen 2/10/15 Initial creation 1.0.0 Zachary Nielsen 3/07/15 Customer request 1.1.0 Daniel Hudy 4/28/15 Revision after Session App changes 1.2.0",
+    "epic": "General"
+  },
+  {
+    "req_id": "1",
+    "text": ".Introduction",
+    "epic": "General"
+  },
+  {
+    "req_id": "1.1",
+    "text": ".Purpose The Trillium Health Day Health Manager is a system primarily used to assist Day Health staff in the tracking and care of patients in their Day Health program by multiple means. An important assistive activity the system provides is to digitize what are currently physical artifacts such as patient assessments, care plans, and patient sign in/outs. As an improvement to the current physical workflow, the system will automate tracking of individuals through the program. In addition, the system will assist the staff in clerical duties such as billing, report generation, overseeing compliance with patients care plans, and providing tools to assist in the case of an audit. The system will accomplish these goals through the implementation of a desktop interface, database, and mobile application. The Clinician Portal will assist the Day Health staff in the creation and retrieval of their electronic medical records, billing, and report generation. The database will persistently track the status of the individuals enrolled in their program, and the mobile application will assist patients with signing in and out.",
+    "epic": "General"
+  },
+  {
+    "req_id": "1.2",
+    "text": ".Document Conventions This document has been broken into three parts under most sections to cover the three fundamental parts of the application, the database, the Clinician Portal, and the session application. This document is modeled after the SRS template from the Software Requirements and Architecture class [A:1]. Throughout the document we reference different appendices, these references will be noted with the following convention: [Appendix Letter:Item Number]. For example the notation for referencing item one in appendix A (The SRS Template) would be [A:1].",
+    "epic": "General"
+  },
+  {
+    "req_id": "1.3",
+    "text": ".Intended Audience and Reading Suggestion The intended audience of this document is all major stakeholders which include the development team, the project owner, the project customer, the senior project advisor (Professor Hawker), and anyone evaluating the project. It is recommended that you check out our team’s website and the documents hosted there for better background on the project, process, and the team.",
+    "epic": "General"
+  },
+  {
+    "req_id": "1.4",
+    "text": ".Project Scope The scope for this project includes everything Trillium needs to replace their current system with our system in addition to a couple of extra features. The scope primarily consists of three parts, the database, the clinician portal, and the session application. The three of those parts each have a distinct scope. The database must be able to track all of the data that Trillium is looking to store. A huge part of this involves scanning and storing documents on a per patient basis. Each document may have different pieces of data that need to be tracked in the database. The database will be in charge of keeping track of what pieces of data each document is associated with as well as storing each instance of that data that has been input. The database will also store session data from each of Trillium’s patient sessions. This includes everything from departure and arrival times, session notes, and individual session notes. More specifics on data to be stored can be found in the product features section. The clinician portal is the primary user interface for our system. This will be a web application accessible from any compatible web browser. The clinician portal has 3 major parts: patients, sessions, and statistics/billing. The patients section will be where the user can add, modify, or check any patient data stored in the system. This includes basic functionality such as adding a new patient, adding a new scanned document to a patient, or checking on a patient’s basic info. The session section is where a user can go to add, modify, or check on any session data. This includes functionality such as scheduling a new session, modifying a session leader, or checking which classes are scheduled on a specific day. The third basic part is statistics/billing. The statistics/billing section will be where the user can find tools that are able to run tracking associated with patient data and billing. This may involve a tool that can get the patients that are billable for the week or similar tools. The session application is used by session leaders to standardize attendance tracking and session note­keeping. The session application will primarily be used to keep track of patients signing in to sessions. The session application will interface with a fingerprint scanner that the user will need to use to sign into a session. This gives Trillium a unique and precise timestamp for each individual that will allow them to determine how long a patient has been at each session.",
+    "epic": "General"
+  },
+  {
+    "req_id": "1.5",
+    "text": ".References Title Corresponding File/Address Team Website http://www.se.rit.edu/~foryourhealth/",
+    "epic": "General"
+  },
+  {
+    "req_id": "2",
+    "text": ".Overall Description",
+    "epic": "General"
+  },
+  {
+    "req_id": "2.1",
+    "text": ".Product Perspective",
+    "epic": "General"
+  }
+]

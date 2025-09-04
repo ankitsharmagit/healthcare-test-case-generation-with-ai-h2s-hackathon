@@ -1,0 +1,92 @@
+Requirement ID,Story Id,Epic,Priority,User Story,Pages (Citations),Alignment Score,Needs Review,Matched Clauses,Clause Scores,Expected Controls,Detected Controls,Missing Controls,Evidence (Story + Steps)
+1.1,08e6b31b-436b-421d-af68-f862c5d528e1,Digitize patient records and automate tracking.,Must,"As a Nurse, I want to access digitized patient assessments and care plans so that I can efficiently review patient information and update vitals.",4;4;6,0.449,False,FDA 21 CFR Part 11 11.10(e); FDA 21 CFR Part 11 11.100; ISO 13485 4.2.5; IEC 62304 5.1,0.638; 0.629; 0.592; 0.582,audit_trail; data_integrity; e_signature; rbac; risk_management; traceability; verification_validation,,audit_trail; data_integrity; e_signature; rbac; risk_management; traceability; verification_validation,"As a Nurse, I want to access digitized patient assessments and care plans so that I can efficiently review patient information and update vitals.
+GIVEN the Nurse is logged into the Clinician Portal
+WHEN the Nurse selects a patient
+THEN the Nurse can view digitized assessments and care plans for that patient.
+The system must comply with HIPAA regulations.
+The system must comply with FDA 21 CFR Part 11 regulations.
+nan
+nan"
+1.4,e5e412d7-0c63-42d6-9854-180ded7738ff,"Replace Trillium's current system with a new system including database, clinician portal, and session application.",Must,"As a Doctor, I want to view patient data stored in the system so that I can effectively manage patient care.",5;5;5,0.234,False,FDA 21 CFR Part 11 11.10(e); ISO 13485 4.2.5; FDA 21 CFR Part 11 11.100; ISO 27001 A.9,0.641; 0.601; 0.597; 0.573,audit_trail; data_integrity; e_signature; rbac; traceability,,audit_trail; data_integrity; e_signature; rbac; traceability,"As a Doctor, I want to view patient data stored in the system so that I can effectively manage patient care.
+GIVEN the Doctor is logged into the clinician portal
+WHEN the Doctor selects a patient
+THEN the Doctor should be able to view all relevant patient data, including scanned documents and session information.
+The system must comply with HIPAA regulations.
+The system must comply with FDA 21 CFR Part 11 regulations.
+nan
+nan"
+AUTO-1,1c769068-d34b-4f3f-8773-a47b85b317e9,,Must,"As a Doctor, I want to access patient information through a web-based Clinician Portal, so that I can efficiently review patient data and modify information in the database.",13;13,0.0,True,FDA 21 CFR Part 11 11.10(e); FDA 21 CFR Part 11 11.100; ISO 27001 A.9; ISO 13485 4.2.5,0.615; 0.587; 0.567; 0.56,audit_trail; data_integrity; e_signature; rbac; traceability,,audit_trail; data_integrity; e_signature; rbac; traceability,"As a Doctor, I want to access patient information through a web-based Clinician Portal, so that I can efficiently review patient data and modify information in the database.
+GIVEN I am a Doctor logged into the Clinician Portal.
+WHEN I navigate to a patient's record.
+THEN I can view and modify patient information in the database.
+GIVEN I am a Doctor using the Clinician Portal.
+WHEN I access the application through a browser.
+THEN The interface is easy to learn and navigate quickly.
+The Clinician Portal must comply with HIPAA regulations.
+The Clinician Portal must comply with FDA 21 CFR Part 11 regulations.
+nan
+nan
+nan
+nan"
+2,500e0684-4312-4151-a3b7-c3dd1dcf7009,,Must,"As a Doctor, I want to view audit reports of patient data changes, so that I can ensure data integrity and compliance.",8,0.0,True,FDA 21 CFR Part 11 11.10(e); ISO 13485 4.2.5; ISO 27001 A.9; FDA 21 CFR Part 11 11.100,0.678; 0.626; 0.572; 0.564,audit_trail; data_integrity; e_signature; rbac; traceability,audit_trail; data_integrity,e_signature; rbac; traceability,"As a Doctor, I want to view audit reports of patient data changes, so that I can ensure data integrity and compliance.
+GIVEN I am logged in as a Doctor.
+WHEN I request an audit report for a specific patient.
+THEN I should see a report showing the history of additions, changes, and deletions of documents and data, per user.
+Audit logs must be compliant with HIPAA and FDA 21 CFR Part 11.
+Audit reports must be generated in a timely manner.
+nan
+nan"
+1,dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc,,Must,"As a Day Health staff member, I want to digitize patient assessments and care plans, so that I can automate tracking of individuals through the program and improve the current physical workflow.",4;4;4,0.0,True,ISO 13485 4.2.5; FDA 21 CFR Part 11 11.10(e); ISO 9001 8.5.1; IEC 62304 5.1,0.566; 0.552; 0.525; 0.518,audit_trail; data_integrity; risk_management; traceability; verification_validation,,audit_trail; data_integrity; risk_management; traceability; verification_validation,"As a Day Health staff member, I want to digitize patient assessments and care plans, so that I can automate tracking of individuals through the program and improve the current physical workflow.
+GIVEN I am a Day Health staff member using the Trillium Health Day Health Manager system.
+WHEN I access the system to manage patient information.
+THEN I should be able to create and store digital versions of patient assessments and care plans.
+GIVEN Digital patient assessments and care plans are stored in the system.
+WHEN A patient signs in or out of the Day Health program.
+THEN The system should automatically track the individual's progress through the program.
+nan
+nan
+nan
+nan"
+1.2,5aba8e2f-ea8b-49af-851e-9c4e8523fc7a,,Must,"As a Day Health staff member, I want to digitize patient assessments, care plans, and sign in/outs so that I can automate tracking of individuals through the program and improve the current physical workflow.",4;4;4,0.012,True,FDA 21 CFR Part 11 11.10(e); ISO 13485 4.2.5; ISO 9001 8.5.1; FDA 21 CFR Part 11 11.100,0.559; 0.554; 0.537; 0.532,audit_trail; data_integrity; e_signature; rbac; traceability; verification_validation,,audit_trail; data_integrity; e_signature; rbac; traceability; verification_validation,"As a Day Health staff member, I want to digitize patient assessments, care plans, and sign in/outs so that I can automate tracking of individuals through the program and improve the current physical workflow.
+GIVEN I am a Day Health staff member
+WHEN I access the Trillium Health Day Health Manager system
+THEN I can digitize patient assessments, care plans, and patient sign in/outs.
+GIVEN I have digitized patient information
+WHEN The system tracks individuals through the program
+THEN The tracking is automated.
+nan
+nan
+nan
+nan"
+1.3,3d21ba8d-59f4-4cdf-998b-7d43d16e41e9,,Must,"As a Doctor, I want to access patient data through the Clinician Portal so that I can review patient history and current status.",4;5,0.0,True,FDA 21 CFR Part 11 11.10(e); FDA 21 CFR Part 11 11.100; ISO 27001 A.9; ISO 13485 4.2.5,0.63; 0.591; 0.57; 0.567,audit_trail; data_integrity; e_signature; rbac; traceability,,audit_trail; data_integrity; e_signature; rbac; traceability,"As a Doctor, I want to access patient data through the Clinician Portal so that I can review patient history and current status.
+GIVEN I am a logged-in Doctor in the Clinician Portal.
+WHEN I search for and select a patient.
+THEN I can view the patient's relevant data stored in the database.
+The system must comply with HIPAA regulations.
+The system must comply with FDA 21 CFR Part 11 regulations.
+nan
+nan"
+1.5,4635d6f2-0127-4824-a06f-fdd1c02244d6,,Must,"As a Doctor, I want to add, modify, or check any patient data stored in the system, so that I can effectively manage patient information and provide appropriate care.",5,0.0,True,FDA 21 CFR Part 11 11.10(e); ISO 13485 4.2.5; FDA 21 CFR Part 11 11.100; ISO 27001 A.9,0.625; 0.612; 0.594; 0.589,audit_trail; data_integrity; e_signature; rbac; traceability,,audit_trail; data_integrity; e_signature; rbac; traceability,"As a Doctor, I want to add, modify, or check any patient data stored in the system, so that I can effectively manage patient information and provide appropriate care.
+GIVEN I am logged in as a Doctor.
+WHEN I access the patient data management section.
+THEN I should be able to add new patient records, modify existing patient information, and view patient details.
+The system must comply with HIPAA regulations.
+The system must comply with FDA 21 CFR Part 11.
+nan
+nan"
+2,43c457f2-1664-4641-9584-575ef7fa8daf,,Must,"As a Doctor, I want to view patient data in the clinician portal so that I can effectively manage patient care.",6;6,0.0,True,FDA 21 CFR Part 11 11.10(e); FDA 21 CFR Part 11 11.100; ISO 13485 4.2.5; ISO 27001 A.9,0.618; 0.588; 0.58; 0.559,audit_trail; data_integrity; e_signature; rbac; traceability,,audit_trail; data_integrity; e_signature; rbac; traceability,"As a Doctor, I want to view patient data in the clinician portal so that I can effectively manage patient care.
+GIVEN I am a logged-in Doctor in the clinician portal.
+WHEN I select a patient.
+THEN I should see the patient's relevant clinical information and documents organized in a meaningful way.
+The system must comply with HIPAA regulations.
+The system must comply with FDA 21 CFR Part 11 regulations.
+nan
+nan"
+2.1,afcd9496-0c34-4f0a-9ad5-c9a1b3bdd461,Implement Clinician Portal,Must,"As a Doctor, I want to access patient data through the clinician portal so that I can efficiently review patient information and provide better care.",6;6,0.0,True,ISO 27001 A.9; FDA 21 CFR Part 11 11.10(e); ISO 13485 4.2.5; ISO 27001 A.10,0.57; 0.547; 0.544; 0.525,audit_trail; data_integrity; encryption; rbac; traceability,,audit_trail; data_integrity; encryption; rbac; traceability,"As a Doctor, I want to access patient data through the clinician portal so that I can efficiently review patient information and provide better care.
+GIVEN I am logged into the clinician portal as a Doctor.
+WHEN I search for and select a patient.
+THEN I can view the patient's relevant clinical information and documents stored in the database.
+The clinician portal must be HIPAA compliant.
+The system must be secure and protect patient data.
+nan
+nan"

@@ -1,0 +1,14 @@
+Test Case Title,Step Action,Step Expected,Requirement ID,Priority,Tags,Pages,Story Id,Epic,Area Path,Iteration Path,story_id
+08e6b31b-436b-421d-af68-f862c5d528e1_AC1,,,1.1,Must,@priority_Must @req_1.1 @FDA21CFR11 @HIPAA,4;6,08e6b31b-436b-421d-af68-f862c5d528e1,Digitize patient records and automate tracking.,,,08e6b31b-436b-421d-af68-f862c5d528e1
+e5e412d7-0c63-42d6-9854-180ded7738ff_AC1,,,1.4,Must,@priority_Must @req_1.4 @FDA21CFR11 @HIPAA,5,e5e412d7-0c63-42d6-9854-180ded7738ff,"Replace Trillium's current system with a new system including database, clinician portal, and session application.",,,e5e412d7-0c63-42d6-9854-180ded7738ff
+1c769068-d34b-4f3f-8773-a47b85b317e9_AC1,,,AUTO-1,Must,@priority_Must @req_AUTO-1 @FDA21CFR11 @HIPAA,13,1c769068-d34b-4f3f-8773-a47b85b317e9,,,,1c769068-d34b-4f3f-8773-a47b85b317e9
+1c769068-d34b-4f3f-8773-a47b85b317e9_AC2,,,AUTO-1,Must,@priority_Must @req_AUTO-1 @FDA21CFR11 @HIPAA,13,1c769068-d34b-4f3f-8773-a47b85b317e9,,,,1c769068-d34b-4f3f-8773-a47b85b317e9
+500e0684-4312-4151-a3b7-c3dd1dcf7009_AC1,,,2,Must,@priority_Must @req_2 @FDA21CFR11 @HIPAA,8,500e0684-4312-4151-a3b7-c3dd1dcf7009,,,,500e0684-4312-4151-a3b7-c3dd1dcf7009
+dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc_AC1,,,1,Must,@priority_Must @req_1,4,dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc,,,,dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc
+dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc_AC2,,,1,Must,@priority_Must @req_1,4,dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc,,,,dfdaa63c-66d2-43b9-b9b4-ce5fa47516dc
+5aba8e2f-ea8b-49af-851e-9c4e8523fc7a_AC1,,,1.2,Must,@priority_Must @req_1.2,4,5aba8e2f-ea8b-49af-851e-9c4e8523fc7a,,,,5aba8e2f-ea8b-49af-851e-9c4e8523fc7a
+5aba8e2f-ea8b-49af-851e-9c4e8523fc7a_AC2,,,1.2,Must,@priority_Must @req_1.2,4,5aba8e2f-ea8b-49af-851e-9c4e8523fc7a,,,,5aba8e2f-ea8b-49af-851e-9c4e8523fc7a
+3d21ba8d-59f4-4cdf-998b-7d43d16e41e9_AC1,,,1.3,Must,@priority_Must @req_1.3 @FDA21CFR11 @HIPAA,4;5,3d21ba8d-59f4-4cdf-998b-7d43d16e41e9,,,,3d21ba8d-59f4-4cdf-998b-7d43d16e41e9
+4635d6f2-0127-4824-a06f-fdd1c02244d6_AC1,,,1.5,Must,@priority_Must @req_1.5 @FDA21CFR11 @HIPAA,5,4635d6f2-0127-4824-a06f-fdd1c02244d6,,,,4635d6f2-0127-4824-a06f-fdd1c02244d6
+43c457f2-1664-4641-9584-575ef7fa8daf_AC1,,,2,Must,@priority_Must @req_2 @FDA21CFR11 @HIPAA,6,43c457f2-1664-4641-9584-575ef7fa8daf,,,,43c457f2-1664-4641-9584-575ef7fa8daf
+afcd9496-0c34-4f0a-9ad5-c9a1b3bdd461_AC1,,,2.1,Must,@priority_Must @req_2.1 @HIPAA,6,afcd9496-0c34-4f0a-9ad5-c9a1b3bdd461,Implement Clinician Portal,,,afcd9496-0c34-4f0a-9ad5-c9a1b3bdd461

@@ -1,0 +1,372 @@
+[
+  {
+    "epic": "",
+    "story_id": "0c58dbe6-b471-4f64-a69a-2955c466241c",
+    "user_story": "As a Doctor, I want to access patient information through a web-based Clinician Portal, so that I can efficiently review patient data and modify information in the database.",
+    "acceptance_criteria": [
+      {
+        "given": "I am a Doctor logged into the Clinician Portal.",
+        "when": "I navigate to a patient's record.",
+        "then": "I should be able to view and modify the patient's information in the database."
+      },
+      {
+        "given": "I am a Doctor using the Clinician Portal.",
+        "when": "I am interacting with the portal.",
+        "then": "The interface should be easy to learn and navigate quickly."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [
+      "The Clinician Portal must be a web-based application.",
+      "The Clinician Portal must comply with HIPAA regulations.",
+      "The Clinician Portal must comply with FDA 21 CFR Part 11 regulations."
+    ],
+    "source_requirement_ids": [
+      "AUTO-1"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 13,
+        "snippet": "4.1.1.Clinician Portal As a web­based application, will be the primary channel through which users access or modify any information in the database. Shall rely on common web­application standards, specifically AJAX and require users to access through a browser. The interface must be easy to learn and navigate quickly."
+      },
+      {
+        "page": 1,
+        "snippet": "\n.\n\nSoftware Requirements Specification for Day Health Manager Version 1.1 Prepared by 4yourhealth Senior Project 2015\n2/10/2015\n"
+      }
+    ],
+    "alignment_score": 0.286,
+    "needs_review": false
+  },
+  {
+    "epic": "Digitize Patient Records and Automate Tracking",
+    "story_id": "52ee1ac0-1036-4bcb-8d20-95fc10fac462",
+    "user_story": "As a Day Health Staff, I want to digitize patient assessments, care plans, and sign-in/out sheets so that I can improve the current physical workflow and automate patient tracking.",
+    "acceptance_criteria": [
+      {
+        "given": "I am a Day Health Staff member",
+        "when": "I access the system",
+        "then": "I can scan and store patient assessments, care plans, and sign-in/out sheets digitally."
+      },
+      {
+        "given": "Patient assessments, care plans, and sign-in/out sheets are digitized",
+        "when": "a patient signs in or out",
+        "then": "the system automatically tracks the patient's status."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [
+      "The system must comply with HIPAA regulations.",
+      "The system must comply with FDA 21 CFR Part 11 regulations."
+    ],
+    "source_requirement_ids": [
+      "1.1"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 4,
+        "snippet": "1.Introduction\n1.1.Purpose The Trillium Health Day Health Manager is a system primarily used to assist Day Health staff in the tracking and care of patients in their Day Health program by multiple means."
+      }
+    ],
+    "alignment_score": 0.227,
+    "needs_review": false
+  },
+  {
+    "epic": "Replace Trillium's current system with a new system including database, clinician portal, and session application.",
+    "story_id": "1a3639d3-d64e-4a63-802b-75a838773921",
+    "user_story": "As a Doctor, I want to view patient data stored in the system so that I can effectively review patient information and provide appropriate care.",
+    "acceptance_criteria": [
+      {
+        "given": "I am logged into the clinician portal as a Doctor.",
+        "when": "I select a patient from the patient list.",
+        "then": "I can view all relevant patient data, including scanned documents, basic info, and session data."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [
+      "The system must comply with HIPAA regulations.",
+      "The system must comply with FDA 21 CFR Part 11 regulations."
+    ],
+    "source_requirement_ids": [
+      "1.4"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 5,
+        "snippet": "The scope for this project includes everything Trillium needs to replace their current system with our system in addition to a couple of extra features."
+      },
+      {
+        "page": 5,
+        "snippet": "The patients section will be where the user can add, modify, or check any patient data stored in the system."
+      },
+      {
+        "page": 6,
+        "snippet": "A clinician portal is required to present and organize the contents of the database."
+      }
+    ],
+    "alignment_score": 0.221,
+    "needs_review": false
+  },
+  {
+    "epic": "",
+    "story_id": "84885317-7f4d-406f-9d78-9df2983b2045",
+    "user_story": "As a Doctor, I want to view audit history reports per patient so that I can track changes to patient data and ensure data integrity.",
+    "acceptance_criteria": [
+      {
+        "given": "I am logged in as a Doctor.",
+        "when": "I navigate to a patient's record.",
+        "then": "I can view a report showing the audit history for that patient, including additions, changes, and deletions of documents and data."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [
+      "The audit history must be compliant with HIPAA and FDA 21 CFR Part 11.",
+      "The system must support auditing of documents and other data."
+    ],
+    "source_requirement_ids": [
+      "2"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 8,
+        "snippet": "2.3.3.15.­ Reports which show auditing history, per user or per patient."
+      },
+      {
+        "page": 8,
+        "snippet": "2.3.3.13.­ Allowing and Tracking changes to existing documents or data"
+      }
+    ],
+    "alignment_score": 0.0,
+    "needs_review": true
+  },
+  {
+    "epic": "",
+    "story_id": "1d7bdd4f-9a7f-476b-8267-8f6cb5133d26",
+    "user_story": "As a Day Health staff member, I want to digitize patient assessments and care plans, so that I can automate tracking of individuals through the program and improve the current physical workflow.",
+    "acceptance_criteria": [
+      {
+        "given": "I am a Day Health staff member using the Trillium Health Day Health Manager system.",
+        "when": "I access the system to manage patient care.",
+        "then": "I should be able to create and store digital versions of patient assessments and care plans."
+      },
+      {
+        "given": "Digital patient assessments and care plans are stored in the system.",
+        "when": "A patient signs in or out of the Day Health program.",
+        "then": "The system should automatically track the patient's attendance."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [],
+    "source_requirement_ids": [
+      "1"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 4,
+        "snippet": "The Trillium Health Day Health Manager is a system primarily used to assist Day Health staff in the tracking and care of patients in their Day Health program by multiple means."
+      },
+      {
+        "page": 4,
+        "snippet": "An important assistive activity the system provides is to digitize what are currently physical artifacts such as patient assessments, care plans, and patient sign in/outs."
+      },
+      {
+        "page": 4,
+        "snippet": "As an improvement to the current physical workflow, the system will automate tracking of individuals through the program."
+      }
+    ],
+    "alignment_score": 0.0,
+    "needs_review": true
+  },
+  {
+    "epic": "",
+    "story_id": "362254ec-457b-4f1a-aa4a-7254e73058c3",
+    "user_story": "As a Day Health staff, I want to digitize patient assessments and care plans, so that I can automate tracking of individuals through the program.",
+    "acceptance_criteria": [
+      {
+        "given": "I am a Day Health staff member.",
+        "when": "I access the Trillium Health Day Health Manager system.",
+        "then": "I can create and store patient assessments and care plans digitally."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [],
+    "source_requirement_ids": [
+      "1.2"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 4,
+        "snippet": "The Trillium Health Day Health Manager is a system primarily used to assist Day Health staff in the tracking and care of patients in their Day Health program by multiple means."
+      },
+      {
+        "page": 4,
+        "snippet": "An important assistive activity the system provides is to digitize what are currently physical artifacts such as patient assessments, care plans, and patient sign in/outs."
+      },
+      {
+        "page": 4,
+        "snippet": "As an improvement to the current physical workflow, the system will automate tracking of individuals through the program."
+      }
+    ],
+    "alignment_score": 0.012,
+    "needs_review": true
+  },
+  {
+    "epic": "",
+    "story_id": "d646cddd-2e22-466a-8377-78ed2f4f630e",
+    "user_story": "As a Doctor, I want to access patient data through the Clinician Portal so that I can review patient information efficiently.",
+    "acceptance_criteria": [
+      {
+        "given": "I am a Doctor using the Clinician Portal.",
+        "when": "I log in to the system.",
+        "then": "I should be able to view patient data stored in the database."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [
+      "Database",
+      "Clinician Portal"
+    ],
+    "non_functional": [
+      "HIPAA compliance",
+      "FDA 21 CFR Part 11 compliance"
+    ],
+    "source_requirement_ids": [
+      "1.3"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 4,
+        "snippet": "database, the Clinician Portal, and the session application."
+      },
+      {
+        "page": 5,
+        "snippet": "The scope primarily consists of three parts, the database, the clinician portal, and the session application."
+      }
+    ],
+    "alignment_score": 0.0,
+    "needs_review": true
+  },
+  {
+    "epic": "",
+    "story_id": "0345883a-95cd-4258-9554-c5484c6c15e7",
+    "user_story": "As a Doctor, I want to add a new scanned document to a patient, so that I can have all relevant patient information stored in the system.",
+    "acceptance_criteria": [
+      {
+        "given": "I am logged in as a Doctor and have selected a patient.",
+        "when": "I upload a scanned document.",
+        "then": "The document is stored in the patient's record and is accessible for review."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [
+      "The system must be HIPAA compliant.",
+      "The system must be FDA 21 CFR Part 11 compliant."
+    ],
+    "source_requirement_ids": [
+      "1.5"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 5,
+        "snippet": "user can add, modify, or check any patient data stored in the system. This includes basic functionality such as adding a new patient, adding a new scanned document to a patient, or checking on a patient’s basic info."
+      }
+    ],
+    "alignment_score": 0.0,
+    "needs_review": true
+  },
+  {
+    "epic": "Digitize patient records and improve workflow efficiency.",
+    "story_id": "631c2a20-e344-4fb7-b16a-6d2d5441d2b6",
+    "user_story": "As a Doctor, I want to access patient assessments and care plans electronically so that I can review patient information more efficiently and provide better care.",
+    "acceptance_criteria": [
+      {
+        "given": "I am logged into the clinician portal.",
+        "when": "I search for and select a patient.",
+        "then": "I can view the patient's digitized assessments and care plans."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [],
+    "non_functional": [
+      "The system must comply with HIPAA regulations.",
+      "The system must comply with FDA 21 CFR Part 11 regulations."
+    ],
+    "source_requirement_ids": [
+      "2"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 4,
+        "snippet": "The Trillium Health Day Health Manager is a system primarily used to assist Day Health staff in the tracking and care of patients in their Day Health program by multiple means."
+      },
+      {
+        "page": 6,
+        "snippet": "A clinician portal is required to present and organize the contents of the database."
+      }
+    ],
+    "alignment_score": 0.0,
+    "needs_review": true
+  },
+  {
+    "epic": "Implement Clinician Portal",
+    "story_id": "dab39ed0-5ae2-41a9-8c3c-b990a1bac996",
+    "user_story": "As a Doctor, I want to view patient data in the clinician portal so that I can efficiently review patient information and make informed decisions.",
+    "acceptance_criteria": [
+      {
+        "given": "I am logged into the clinician portal as a Doctor.",
+        "when": "I select a patient from the patient list.",
+        "then": "I can view the patient's relevant clinical information and documents stored in the database."
+      }
+    ],
+    "priority": "Must",
+    "dependencies": [
+      "Database setup for storing patient data",
+      "Clinician portal development"
+    ],
+    "non_functional": [
+      "The clinician portal must be HIPAA compliant.",
+      "The system must be secure to protect patient data."
+    ],
+    "source_requirement_ids": [
+      "2.1"
+    ],
+    "assumptions": [],
+    "open_questions": [],
+    "citations": [
+      {
+        "page": 6,
+        "snippet": "A clinician portal is required to present and organize the contents of the database. This is the"
+      },
+      {
+        "page": 6,
+        "snippet": "Database Currently Trillium health uses largely paper forms and sharepoint to manage their patients care."
+      }
+    ],
+    "alignment_score": 0.0,
+    "needs_review": true
+  }
+]

@@ -77,7 +77,7 @@ async def main():
         steps_dir=os.path.join(OUTPUT_DIR, "steps"),
         framework="pytest-bdd",
         feature_per_epic=True,
-        traceability_csv=os.path.join(OUTPUT_DIR, "traceability.csv"),
+        traceability_csv=os.path.join(OUTPUT_DIR, "testcases.csv"),
     )
     print("✅ BDD test cases generated.")
 

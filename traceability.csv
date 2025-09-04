@@ -1,0 +1,13 @@
+requirement_id,story_id,epic,priority,scenario_id,tags,pages
+1.1,079385b2-4416-46d0-a3bd-b3435e65d921,Digitize patient records and automate tracking.,Must,079385b2-4416-46d0-a3bd-b3435e65d921_AC1,@priority_Must @req_1.1 @FDA21CFR11 @HIPAA,4;6
+1.4,07debc6d-0429-41d6-a9f8-9cb6d05235a0,"Replace Trillium's current system with a new system including database, clinician portal, and session application.",Must,07debc6d-0429-41d6-a9f8-9cb6d05235a0_AC1,@priority_Must @req_1.4 @FDA21CFR11 @HIPAA,5;6
+AUTO-1,460ee28f-96eb-4eef-b811-dfc81370084d,,Must,460ee28f-96eb-4eef-b811-dfc81370084d_AC1,@priority_Must @req_AUTO-1 @HIPAA,13
+2,b98534fc-6d60-4891-8c24-eeb09545d284,,Must,b98534fc-6d60-4891-8c24-eeb09545d284_AC1,@priority_Must @req_2 @FDA21CFR11 @HIPAA,8
+2,b98534fc-6d60-4891-8c24-eeb09545d284,,Must,b98534fc-6d60-4891-8c24-eeb09545d284_AC2,@priority_Must @req_2 @FDA21CFR11 @HIPAA,8
+1,0f3b316d-bc71-403c-bba3-79ee51c2b312,,Must,0f3b316d-bc71-403c-bba3-79ee51c2b312_AC1,@priority_Must @req_1 @FDA21CFR11 @HIPAA,4
+1.2,91ddee59-35c7-46a5-ba77-9e7e1d5a1fa6,,Must,91ddee59-35c7-46a5-ba77-9e7e1d5a1fa6_AC1,@priority_Must @req_1.2,4
+1.2,91ddee59-35c7-46a5-ba77-9e7e1d5a1fa6,,Must,91ddee59-35c7-46a5-ba77-9e7e1d5a1fa6_AC2,@priority_Must @req_1.2,4
+1.3,617c68ce-6fcd-451f-ada4-dac4570deb7a,,Must,617c68ce-6fcd-451f-ada4-dac4570deb7a_AC1,@priority_Must @req_1.3 @FDA21CFR11 @HIPAA,4;5
+1.5,2eb15241-ef36-4556-8426-c6c401ee4952,,Must,2eb15241-ef36-4556-8426-c6c401ee4952_AC1,@priority_Must @req_1.5 @FDA21CFR11 @HIPAA,5
+2,1da2101e-acbc-4ca4-98f2-7b9566d90d37,Implement Clinician Portal,Must,1da2101e-acbc-4ca4-98f2-7b9566d90d37_AC1,@priority_Must @req_2 @HIPAA,4;6
+2.1,469c1b9c-a536-4cf4-9284-e69ad1aa7887,Implement Clinician Portal,Must,469c1b9c-a536-4cf4-9284-e69ad1aa7887_AC1,@priority_Must @req_2.1 @HIPAA,6

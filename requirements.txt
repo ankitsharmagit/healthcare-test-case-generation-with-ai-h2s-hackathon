@@ -3,3 +3,5 @@ langchain-google-vertexai
 PyPDF2
 python-docx
 pydantic
+tqdm
+openpyxl

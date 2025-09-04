@@ -1,0 +1,32 @@
+# Auto-generated pytest-bdd step definitions.
+# Run: pytest -k feature
+import pytest
+from pytest_bdd import given, when, then, scenarios
+
+# Link feature(s)
+scenarios("features/*.feature")
+
+# Example shared test data (E2E placeholders)
+TEST_CONTEXT = {
+    "patient_id": "PAT-001",
+    "session_id": "SES-001",
+    "clinician_id": "DOC-123",
+}
+
+@given("the Nurse is logged into the Clinician Portal")
+def step_given():
+    # TODO: implement setup for: the Nurse is logged into the Clinician Portal
+    # e.g., create patient in DB using TEST_CONTEXT["patient_id"]
+    pass
+
+@when("the Nurse selects a patient")
+def step_when():
+    # TODO: implement action for: the Nurse selects a patient
+    # e.g., call API to sign in/out, upload document, etc.
+    pass
+
+@then("the system displays the patient's digitized assessments and care plans")
+def step_then():
+    # TODO: implement assertion for: the system displays the patient's digitized assessments and care plans
+    # e.g., assert response.status_code == 200 or record exists in DB
+    pass
